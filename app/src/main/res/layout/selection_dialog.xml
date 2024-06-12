@@ -34,8 +34,8 @@
                 android:padding="10dp"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Pick Image From Gallery"
-                android:textColor="#FFFFFF"
+                android:text=" Gallery"
+                android:textColor="@color/Yellow"
                 android:textSize="20sp" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -56,11 +56,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Take Picture from Camera"
-                android:textColor="#FFFFFF"
                 android:layout_gravity="center"
                 android:gravity="center"
+                android:padding="10dp"
+                android:text="Camera"
+                android:textColor="@color/Yellow"
                 android:textSize="20sp" />
         </com.google.android.material.card.MaterialCardView>
 

@@ -17,8 +17,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_margin="10dp"
-            android:text="Recognised Answers Are:"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Answers:"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="20sp" />
 
@@ -51,10 +54,10 @@
             android:padding="10dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:textColor="#ffffff"
+            android:textColor="@color/Yellow"
             android:layout_centerHorizontal="true"
             android:background="@color/colorPrimary"
-            android:text="Check Answers" />
+            android:text="Proceed" />
 
     </RelativeLayout>
 </ScrollView>

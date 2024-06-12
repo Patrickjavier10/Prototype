@@ -18,9 +18,9 @@
             android:layout_gravity="center"
             android:layout_marginHorizontal="10dp"
             android:layout_marginBottom="20dp"
-            android:text="Enter the Correct Option for each Question"
+            android:text="Please Input the correct answer."
             android:textAlignment="center"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimary"
             android:textSize="27sp" />
 
         <LinearLayout

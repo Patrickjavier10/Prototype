@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Offline Optical Mark Recognition Grader</string>
-    <string name="project_name">Offline OMR Grader</string>
+    <string name="app_name">CheckMate</string>
+    <string name="project_name">CheckMate</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+
 </resources>

@@ -59,7 +59,7 @@ public class Results extends AppCompatActivity {
                 String[] answers = readFile(file).split("\n");
                 double maxscore = answers.length;
                 if(maxscore==0 || key.length==0){
-                    Toast.makeText(getApplicationContext(),"No Answer Key Found.\nPlease Set Up an Answer Key First",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Please Create an Answer Key.",Toast.LENGTH_SHORT).show();
                 }
                 double s = 0;
                 try {
@@ -73,7 +73,7 @@ public class Results extends AppCompatActivity {
                     }
                 }
                 catch (Exception e){
-                    Toast.makeText(getApplicationContext(),"No Answer Key Found.\nPlease Set Up an Answer Key First",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Please Create an Answer Key",Toast.LENGTH_SHORT).show();
                     Log.d("ERROR",e.getMessage().toString());
                     finishAffinity();
                     startActivity(new Intent(Results.this,StartActivity.class));
@@ -97,7 +97,7 @@ public class Results extends AppCompatActivity {
             }
             br.close();
         } catch (IOException e) {
-            Toast.makeText(getApplicationContext(),"No Answer Key Found.\nPlease Set Up an Answer Key First",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"Please Create an Answer Key",Toast.LENGTH_SHORT).show();
             Log.d("ERROR",e.getMessage().toString());
             finishAffinity();
             startActivity(new Intent(Results.this,StartActivity.class));

@@ -2,7 +2,6 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 23
@@ -15,4 +14,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    buildFeatures {
+        aidl true
+    }
+    namespace 'org.opencv'
 }
