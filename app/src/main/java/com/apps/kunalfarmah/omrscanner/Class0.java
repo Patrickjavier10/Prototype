@@ -3,6 +3,7 @@ package com.apps.kunalfarmah.omrscanner;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -23,6 +24,8 @@ public class Class0 extends AppCompatActivity {
     AlertDialog dialog;
     BottomNavigationView bottomNavigationView;
 
+    TextView section, yearlvl;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +39,17 @@ public class Class0 extends AppCompatActivity {
 
         button = findViewById(R.id.AddClass);
 
+        section = findViewById(R.id.section);
+     //   yearlvl = findViewById(R.id.year);
+
+
+        String username = getIntent().getStringExtra("keyname");
+        String year = getIntent().getStringExtra("year");
+        section.setText(username );
+       // yearlvl.setText(year);
+
+
+
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,7 +59,16 @@ public class Class0 extends AppCompatActivity {
 
             }
         });
-    }
+
+
+
+}
+
+
+
+
+
+
 
 
 
@@ -57,7 +80,7 @@ public class Class0 extends AppCompatActivity {
             EditText name = view.findViewById(R.id.studentName);
 
             builder.setView(view)
-                    .setTitle("Student Name")
+                    .setTitle(Html.fromHtml("<font color='#000080' >"+"Student Name"))
                     .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {

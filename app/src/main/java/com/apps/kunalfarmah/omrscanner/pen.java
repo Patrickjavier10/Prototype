@@ -3,9 +3,13 @@ package com.apps.kunalfarmah.omrscanner;
 
 
 
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.StrictMode;
+import android.text.Html;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -13,12 +17,18 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
 
 public class pen extends AppCompatActivity {
@@ -33,16 +43,12 @@ public class pen extends AppCompatActivity {
     AlertDialog dialog;
 
 
-
     private BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pen);
-
-
-
 
 
         Layout = findViewById(R.id.container);
@@ -76,17 +82,31 @@ public class pen extends AppCompatActivity {
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                int id = item.getItemId();
+                switch (item.getItemId()) {
 
-                if (id == R.id.Home) {
-                    startActivity(new Intent(pen.this, StartActivity.class));
+                    case R.id.Home: {
+                        Toast.makeText(pen.this, "Home Selected", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(pen.this, StartActivity.class));
+
+                        break;
+                    }
+                    case R.id.scans: {
+                        Toast.makeText(pen.this, "Scan Selected", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(pen.this, Scan.class));
+                        break;
+                    }
+                    case R.id.classes: {
+
+
+                        //   getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ScanFragment()).commit();
+                        Toast.makeText(pen.this, "Classes Selected", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(pen.this, pen.class));
+                        break;
+                    }
                 }
-                else if (id == R.id.classes) {
-                    startActivity(new Intent(pen.this, pen.class));
-                }
+
                 return false;
             }
-
         });
 
 
@@ -96,7 +116,6 @@ public class pen extends AppCompatActivity {
             public void onClick(View v) {
 
                 dialog.show();
-
 
 
             }
@@ -234,6 +253,23 @@ public class pen extends AppCompatActivity {
 
 
     }
+@SuppressLint("NewApi")
+    public Connection connectionclass() {
+        Connection con = null;
+        String ip = "192.168.56.1", port = "1433", username = "sa", password = "androidstudio", databasename = "ClassName";
+        StrictMode.ThreadPolicy tp = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(tp);
+
+        try {
+            Class.forName("net.sourceforge.jtds.jdbc.driver");
+            String connectionUrl = "jdbc:jtds:sqlserver://" + ip + ":" + port + ";databasename=" + databasename + ";User=" + username + ";password=" + password + ";";
+            con = DriverManager.getConnection(connectionUrl);
+
+        } catch (Exception exception) {
+            Log.e("Error", exception.getMessage());
+        }
+        return con;
+    }
 
 
 //    @Override
@@ -288,10 +324,8 @@ public class pen extends AppCompatActivity {
         EditText yearlvl = view.findViewById(R.id.yrlvl);
 
 
-
-
         builder.setView(view)
-                .setTitle("Add Class Name")
+                .setTitle(Html.fromHtml("<font color='#000080' >" + "Add Class Name"))
                 .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
@@ -304,20 +338,36 @@ public class pen extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         addcard(name.getText().toString(), yearlvl.getText().toString());
+                        String username = name.getText().toString();
+                        String year = yearlvl.getText().toString();
+                        Intent intent = new Intent(pen.this, Class0.class);
+                        intent.putExtra("keyname", username);
+                        intent.putExtra("year", year);
+                        //startActivity(intent);
+                        Connection connection = connectionclass();
+                        try {
+                            if (connection != null) {
 
+                             //  String sqlinsert = "Insert Into ClassName values('" + view + "')";
+                                 String sqlinsert = "Insert Into ClassName values('"+name.getText().toString()+ "', '"+yearlvl.getText().toString()+"')";
+                                Statement st = connection.createStatement();
+                                ResultSet rs = st.executeQuery(sqlinsert);
+                            }
+                        } catch (Exception exception) {
+                            Log.e("Error", exception.getMessage());
 
+                        }
 
 
                     }
 
                 });
 
+
         dialog = builder.create();
 
 
-
     }
-
 
 
     private void addcard(String btnClass, String yrlvl) {
@@ -331,6 +381,9 @@ public class pen extends AppCompatActivity {
 
 
         Layout.addView(view);
+
+
+
 
         view.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
@@ -375,6 +428,7 @@ public class pen extends AppCompatActivity {
 
 
 
+
           /*  for (int c = 0; c < Layout.getChildCount(); i++) {
                 View childView2 = Layout.getChildAt(i);
 
@@ -395,7 +449,10 @@ public class pen extends AppCompatActivity {
             });
 */
 
+
+
 }
+
 
         }
 

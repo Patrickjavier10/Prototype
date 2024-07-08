@@ -177,28 +177,28 @@ public class AnswersActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (item.getItemId() == R.id.save) {
+        if (item.getItemId() == R.id.add) {
             String s = "";
-            s += "Q1. " + e1.getText().toString().trim() + "\n";
-            s += "Q2. " + e2.getText().toString().trim()  + "\n";
-            s += "Q3. " + e3.getText().toString().trim()  + "\n";
-            s += "Q4. " + e4.getText().toString().trim()  + "\n";
-            s += "Q5. " + e5.getText().toString().trim()  + "\n";
-            s += "Q6. " + e6.getText().toString().trim()  + "\n";
-            s += "Q7. " + e7.getText().toString().trim()  + "\n";
-            s += "Q8. " + e8.getText().toString().trim()  + "\n";
-            s += "Q9. " + e9.getText().toString().trim()  + "\n";
-            s += "Q10. " + e10.getText().toString().trim()  + "\n";
-            s += "Q11. " + e11.getText().toString().trim()  + "\n";
-            s += "Q12. " + e12.getText().toString().trim()  + "\n";
-            s += "Q13. " + e13.getText().toString().trim()  + "\n";
-            s += "Q14. " + e14.getText().toString().trim()  + "\n";
-            s += "Q15. " + e15.getText().toString().trim()  + "\n";
-            s += "Q16. " + e16.getText().toString().trim()  + "\n";
-            s += "Q17. " + e17.getText().toString().trim()  + "\n";
-            s += "Q18. " + e18.getText().toString().trim()  + "\n";
-            s += "Q19. " + e19.getText().toString().trim()  + "\n";
-            s += "Q20. " + e20.getText().toString().trim()  + "\n";
+            s += "1. " + e1.getText().toString().trim() + "\n";
+            s += "2. " + e2.getText().toString().trim()  + "\n";
+            s += "3. " + e3.getText().toString().trim()  + "\n";
+            s += "4. " + e4.getText().toString().trim()  + "\n";
+            s += "5. " + e5.getText().toString().trim()  + "\n";
+            s += "6. " + e6.getText().toString().trim()  + "\n";
+            s += "7. " + e7.getText().toString().trim()  + "\n";
+            s += "8. " + e8.getText().toString().trim()  + "\n";
+            s += "9. " + e9.getText().toString().trim()  + "\n";
+            s += "10. " + e10.getText().toString().trim()  + "\n";
+            s += "11. " + e11.getText().toString().trim()  + "\n";
+            s += "12. " + e12.getText().toString().trim()  + "\n";
+            s += "13. " + e13.getText().toString().trim()  + "\n";
+            s += "14. " + e14.getText().toString().trim()  + "\n";
+            s += "15. " + e15.getText().toString().trim()  + "\n";
+            s += "16. " + e16.getText().toString().trim()  + "\n";
+            s += "17. " + e17.getText().toString().trim()  + "\n";
+            s += "18. " + e18.getText().toString().trim()  + "\n";
+            s += "19. " + e19.getText().toString().trim()  + "\n";
+            s += "20. " + e20.getText().toString().trim()  + "\n";
             try {
                 PrintWriter writer = new PrintWriter(file);
                 writer.print("");

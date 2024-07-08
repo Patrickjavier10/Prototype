@@ -32,7 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q1." />
+                android:text="1." />
 
             <EditText
                 android:id="@+id/et1"
@@ -52,7 +52,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q2." />
+                android:text="2." />
 
             <EditText
                 android:id="@+id/et2"
@@ -71,7 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q3." />
+                android:text="3." />
 
             <EditText
                 android:id="@+id/et3"
@@ -90,7 +90,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q4." />
+                android:text="4." />
 
             <EditText
                 android:id="@+id/et4"
@@ -109,7 +109,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q5." />
+                android:text="5." />
 
             <EditText
                 android:id="@+id/et5"
@@ -128,7 +128,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q6." />
+                android:text="6." />
 
             <EditText
                 android:id="@+id/et6"
@@ -147,7 +147,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q7." />
+                android:text="7." />
 
             <EditText
                 android:id="@+id/et7"
@@ -166,7 +166,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q8." />
+                android:text="8." />
 
             <EditText
                 android:id="@+id/et8"
@@ -185,7 +185,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q9." />
+                android:text="9." />
 
             <EditText
                 android:id="@+id/et9"
@@ -204,7 +204,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q10." />
+                android:text="10." />
 
             <EditText
                 android:id="@+id/et10"
@@ -223,7 +223,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q11." />
+                android:text="11." />
 
             <EditText
                 android:id="@+id/et11"
@@ -242,7 +242,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q12." />
+                android:text="12." />
 
             <EditText
                 android:id="@+id/et12"
@@ -261,7 +261,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q13." />
+                android:text="13." />
 
             <EditText
                 android:id="@+id/et13"
@@ -280,7 +280,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q14." />
+                android:text="14." />
 
             <EditText
                 android:id="@+id/et14"
@@ -299,7 +299,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q15." />
+                android:text="15." />
 
             <EditText
                 android:id="@+id/et15"
@@ -318,7 +318,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q16." />
+                android:text="16." />
 
             <EditText
                 android:id="@+id/et16"
@@ -337,7 +337,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q17." />
+                android:text="17." />
 
             <EditText
                 android:id="@+id/et17"
@@ -356,7 +356,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q18." />
+                android:text="18." />
 
             <EditText
                 android:id="@+id/et18"
@@ -375,7 +375,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q19." />
+                android:text="19." />
 
             <EditText
                 android:id="@+id/et19"
@@ -394,7 +394,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:text="Q20." />
+                android:text="20." />
 
             <EditText
                 android:id="@+id/et20"

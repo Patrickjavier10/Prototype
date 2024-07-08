@@ -2,6 +2,7 @@ package com.apps.kunalfarmah.omrscanner;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -49,7 +50,7 @@ public class Class1 extends AppCompatActivity {
         EditText name = view.findViewById(R.id.studentName);
 
         builder.setView(view)
-                .setTitle("Student Name")
+                .setTitle(Html.fromHtml("<font color='#000080' >"+"Student  Name"))
                 .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
