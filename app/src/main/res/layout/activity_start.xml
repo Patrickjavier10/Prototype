@@ -8,6 +8,18 @@
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout">
 
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -46,6 +58,7 @@
             android:layout_marginBottom="25dp"
             android:background="@color/colorPrimary"
             android:padding="15dp"
+            android:rotationX="@android:integer/config_mediumAnimTime"
             android:text="Scan"
             android:textColor="@color/Yellow"
             android:textSize="30sp" />
@@ -58,6 +71,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
             android:background="@color/colorPrimaryDark"
             android:padding="15dp"
             android:text="Answer Key"
@@ -65,17 +79,27 @@
             android:textColor="@color/Yellow"
             android:textSize="30sp" />
 
+        <Button
+            android:id="@+id/reportAnalysis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:padding="15dp"
+            android:text="Report Data"
+            android:textAllCaps="false"
+            android:textColor="@color/Yellow"
+            android:textSize="30sp" />
+
 
     </LinearLayout>
 
-    <ImageView
-        android:layout_width="77dp"
-        android:layout_height="78dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/stilogo1" />
+
+
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"

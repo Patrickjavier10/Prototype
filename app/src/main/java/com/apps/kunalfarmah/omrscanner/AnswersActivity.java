@@ -20,7 +20,7 @@ import java.io.PrintWriter;
 
 public class AnswersActivity extends AppCompatActivity {
 
-    EditText e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20;
+    EditText e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22, e23, e24, e25, e26, e27, e28, e29, e30;
     File file, path;
 
     @Override
@@ -47,6 +47,17 @@ public class AnswersActivity extends AppCompatActivity {
         e18 = findViewById(R.id.et18);
         e19 = findViewById(R.id.et19);
         e20 = findViewById(R.id.et20);
+        e21 = findViewById(R.id.et21);
+        e22 = findViewById(R.id.et22);
+        e23 = findViewById(R.id.et23);
+        e24 = findViewById(R.id.et24);
+        e25 = findViewById(R.id.et25);
+        e26 = findViewById(R.id.et26);
+        e27 = findViewById(R.id.et27);
+        e28 = findViewById(R.id.et28);
+        e29 = findViewById(R.id.et29);
+        e30 = findViewById(R.id.et30);
+
 
         path =
                 Environment.getExternalStoragePublicDirectory
@@ -144,7 +155,46 @@ public class AnswersActivity extends AppCompatActivity {
                 e20.setText(answers[19].substring(answers[19].indexOf('.') + 1).trim() );
             } catch (Exception e) {
             }
-
+            try {
+                e21.setText(answers[20].substring(answers[20].indexOf('.') + 1).trim() );
+            } catch (Exception e) {
+            }
+            try {
+                e22.setText(answers[21].substring(answers[21].indexOf('.') + 1).trim() );
+            } catch (Exception e) {
+            }
+            try {
+                e23.setText(answers[22].substring(answers[22].indexOf('.') + 1).trim() );
+            } catch (Exception e) {
+            }
+            try {
+                e24.setText(answers[23].substring(answers[23].indexOf('.') + 1).trim() );
+            } catch (Exception e) {
+            }
+            try {
+                e25.setText(answers[24].substring(answers[24].indexOf('.') + 1).trim() );
+            } catch (Exception e) {
+            }
+            try {
+                e26.setText(answers[25].substring(answers[25].indexOf('.') + 1).trim() );
+            } catch (Exception e) {
+            }
+            try {
+                e27.setText(answers[26].substring(answers[26].indexOf('.') + 1).trim() );
+            } catch (Exception e) {
+            }
+            try {
+                e28.setText(answers[27].substring(answers[27].indexOf('.') + 1).trim() );
+            } catch (Exception e) {
+            }
+            try {
+                e29.setText(answers[28].substring(answers[28].indexOf('.') + 1).trim() );
+            } catch (Exception e) {
+            }
+            try {
+                e30.setText(answers[29].substring(answers[29].indexOf('.') + 1).trim() );
+            } catch (Exception e) {
+            }
         }
     }
 
@@ -199,6 +249,17 @@ public class AnswersActivity extends AppCompatActivity {
             s += "18. " + e18.getText().toString().trim()  + "\n";
             s += "19. " + e19.getText().toString().trim()  + "\n";
             s += "20. " + e20.getText().toString().trim()  + "\n";
+            s += "21. " + e21.getText().toString().trim() + "\n";
+            s += "22. " + e22.getText().toString().trim()  + "\n";
+            s += "23. " + e23.getText().toString().trim()  + "\n";
+            s += "24. " + e24.getText().toString().trim()  + "\n";
+            s += "25. " + e25.getText().toString().trim()  + "\n";
+            s += "26. " + e26.getText().toString().trim()  + "\n";
+            s += "27. " + e27.getText().toString().trim()  + "\n";
+            s += "28. " + e28.getText().toString().trim()  + "\n";
+            s += "29. " + e29.getText().toString().trim()  + "\n";
+            s += "30. " + e30.getText().toString().trim()  + "\n";
+
             try {
                 PrintWriter writer = new PrintWriter(file);
                 writer.print("");

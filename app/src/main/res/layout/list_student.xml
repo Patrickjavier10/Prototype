@@ -1,35 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="vertical"
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
-        <RelativeLayout
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="16dp">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
+            android:layout_marginVertical="5.0sp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginVertical="2.0sp"
-                android:orientation="vertical">
+                android:padding="5dp">
+
 
                 <TextView
                     android:id="@+id/className"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:text="BSCS - 601"
-                    android:textStyle="bold"
+
                     android:textColor="@color/colorPrimary"
-                    android:textSize="16sp"
-                    android:layout_marginLeft="10dp"/>
+                    android:textSize="20sp" />
 
 
-            </LinearLayout>
 
-        </RelativeLayout>
-</LinearLayout>
+
+
+
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
+

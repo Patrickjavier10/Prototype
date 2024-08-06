@@ -80,6 +80,14 @@ public class Class2 extends AppCompatActivity {
 
 
         Layout.addView(view);
+        view.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                Layout.removeView(view);
+                return true;
+            }
+        });
+
 
 
     }

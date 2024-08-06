@@ -1,5 +1,7 @@
 package com.apps.kunalfarmah.omrscanner;
 
+import static androidx.constraintlayout.widget.ConstraintSet.GONE;
+
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
@@ -7,15 +9,20 @@ import android.content.Intent;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 import android.text.Layout;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -25,10 +32,19 @@ public class StartActivity extends AppCompatActivity  {
 
     Button scan,answer;
 
+    Button tab;
+
+
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     ActionBarDrawerToggle drawerToggle;
     private BottomNavigationView bottomNavigationView;
+
+    ListView listView;
+
+    ArrayAdapter<String> arrayAdapter;
+    String[]codinglist = {"BSCS - 602", "BSCS - 701", "BSIT - 506", "BSTM - 101", "BSCRIM - 401", "BSCPE - 502", "BSCS - 301", "BSIT - 702" , "BACOMM - 301", "BMMA - 501"};
+
 
     boolean isCamera = true;
 
@@ -40,6 +56,40 @@ public class StartActivity extends AppCompatActivity  {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.actionbar_menu, menu);
+
+        MenuItem menuItem = menu.findItem(R.id.search);
+        SearchView searchView = (SearchView) menuItem.getActionView();
+        searchView.setQueryHint("Search Here");
+
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                listView.setVisibility(View.VISIBLE);
+                tab.setVisibility(View.GONE);
+                scan.setVisibility(View.GONE);
+                answer.setVisibility(View.GONE);
+                bottomNavigationView.setVisibility(View.GONE);
+
+                //imageView.setVisibility(View.GONE);
+                arrayAdapter.getFilter().filter(newText);
+                return false;
+            }
+        });
+        return super.onCreateOptionsMenu(menu);
+
+    }
+
+
 
 
     @Override
@@ -50,8 +100,27 @@ public class StartActivity extends AppCompatActivity  {
         scan = findViewById(R.id.scan);
         answer = findViewById(R.id.setAnswers);
 
+       // imageView.findViewById(R.id.StiLogo);
+
+        listView = findViewById(R.id.listView);
+
+        listView.setVisibility(View.GONE);
+
+        arrayAdapter = new ArrayAdapter<String>(this, R.layout.list_customtext, codinglist);
+
+        listView.setAdapter(arrayAdapter);
+
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
+
+        tab = findViewById(R.id.reportAnalysis);
+
+        tab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(StartActivity.this, ReportData.class));
+            }
+        });
 
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
@@ -121,7 +190,7 @@ public class StartActivity extends AppCompatActivity  {
 
                     case R.id.about:{
                         Toast.makeText(StartActivity.this, "About Selected", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(StartActivity.this, AboutPage.class));
+                        startActivity(new Intent(StartActivity.this, Search.class));
                         break;                    }
                     case R.id.login:{
                         Toast.makeText(StartActivity.this, "LogIn Selected", Toast.LENGTH_SHORT).show();

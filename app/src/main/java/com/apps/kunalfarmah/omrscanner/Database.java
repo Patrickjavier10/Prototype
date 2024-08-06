@@ -5,13 +5,19 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
+
 public class Database extends SQLiteOpenHelper {
+
+    Context context;
+
     public Database(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
     }
+
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
@@ -19,11 +25,7 @@ public class Database extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(qry1);
 
 
-
     }
-
-
-
 
 
     @Override
@@ -47,13 +49,16 @@ public class Database extends SQLiteOpenHelper {
         str[1] = password;
         SQLiteDatabase db = getReadableDatabase();
         Cursor c = db.rawQuery("select * from users where username=? and password=?", str);
-        if (c.moveToFirst() ) {
+        if (c.moveToFirst()) {
             result = 1;
 
         }
         return result;
 
     }
+
+
+
 
 
     }

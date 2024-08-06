@@ -8,7 +8,6 @@
     tools:context=".pen">
 
 
-
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="100dp"

@@ -3,12 +3,17 @@ package com.apps.kunalfarmah.omrscanner;
 
 
 
+import static android.view.Gravity.apply;
+
 import android.annotation.SuppressLint;
+import android.app.LauncherActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.text.Html;
+import android.text.Layout;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
@@ -22,6 +27,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.preference.PreferenceManager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -34,13 +40,18 @@ import java.sql.Statement;
 public class pen extends AppCompatActivity {
 
     ImageView iv;
-    Button button, button1;
+    Button button, button1, button2;
 
 
     LinearLayout Layout;
+    //TextView ta;
 
 
     AlertDialog dialog;
+
+
+
+
 
 
     private BottomNavigationView bottomNavigationView;
@@ -52,6 +63,11 @@ public class pen extends AppCompatActivity {
 
 
         Layout = findViewById(R.id.container);
+        // ta = findViewById(R.id.textView6);
+
+
+
+
 
 
         buildDialog();
@@ -64,6 +80,7 @@ public class pen extends AppCompatActivity {
         //  iv = findViewById(R.id.scanner);
 
         button = findViewById(R.id.AddClass);
+
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
@@ -247,28 +264,15 @@ public class pen extends AppCompatActivity {
     }
 
 
+
+
+
+
     public void openDialog() {
         ExampleDialog exampleDialog = new ExampleDialog();
         exampleDialog.show(getSupportFragmentManager(), "ExampleDialog");
 
 
-    }
-@SuppressLint("NewApi")
-    public Connection connectionclass() {
-        Connection con = null;
-        String ip = "192.168.56.1", port = "1433", username = "sa", password = "androidstudio", databasename = "ClassName";
-        StrictMode.ThreadPolicy tp = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-        StrictMode.setThreadPolicy(tp);
-
-        try {
-            Class.forName("net.sourceforge.jtds.jdbc.driver");
-            String connectionUrl = "jdbc:jtds:sqlserver://" + ip + ":" + port + ";databasename=" + databasename + ";User=" + username + ";password=" + password + ";";
-            con = DriverManager.getConnection(connectionUrl);
-
-        } catch (Exception exception) {
-            Log.e("Error", exception.getMessage());
-        }
-        return con;
     }
 
 
@@ -343,22 +347,48 @@ public class pen extends AppCompatActivity {
                         Intent intent = new Intent(pen.this, Class0.class);
                         intent.putExtra("keyname", username);
                         intent.putExtra("year", year);
+
+
+
+                     //   ClassesDatabase gv = new ClassesDatabase(getApplicationContext(), "ad", null, 1);
+
+
+                     //   gv.addClass(name.getText().toString().trim(), yearlvl.getText().toString().trim());
+
                         //startActivity(intent);
-                        Connection connection = connectionclass();
+                      //  SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(pen.this);
+//                        SharedPreferences.Editor editor = pref.edit();
+
+                        //                      editor.putString("name", addcard(name.getText().toString(), yearlvl.getText().toString()));
+                        //                    editor.apply();
+                        //pref.edit().putString("name",username).apply();
+                        //pref.edit().putString("year", year).apply();
+
+                        //String savedText = pref.getString("name", "");
+                        //String savedText1 = pref.getString("year", "");
+
+                        //     TextView n = findViewById(R.id.className);
+                        //   TextView v = findViewById(R.id.yearLevel);
+
+                        //   n.setText(savedText);
+                        //  v.setText(savedText1);
+
+                     /*   Connection connection = connectionclass();
                         try {
                             if (connection != null) {
 
-                             //  String sqlinsert = "Insert Into ClassName values('" + view + "')";
-                                 String sqlinsert = "Insert Into ClassName values('"+name.getText().toString()+ "', '"+yearlvl.getText().toString()+"')";
+                                //  String sqlinsert = "Insert Into ClassName values('" + view + "')";
+                                String sqlinsert = "Insert into ClassName values('" + name.getText().toString() + "','" + yearlvl.getText().toString() + "')";
                                 Statement st = connection.createStatement();
                                 ResultSet rs = st.executeQuery(sqlinsert);
+
                             }
                         } catch (Exception exception) {
                             Log.e("Error", exception.getMessage());
 
                         }
 
-
+*/
                     }
 
                 });
@@ -369,30 +399,51 @@ public class pen extends AppCompatActivity {
 
     }
 
+ /*   @SuppressLint("NewApi")
+    public Connection connectionclass() {
+        Connection con = null;
+        String ip = "192.168.56.1", port = "60353", username = "sa", password = "androidstudio", databasename = "ClassName";
+        StrictMode.ThreadPolicy tp = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(tp);
+
+
+        try {
+            Class.forName("net.sourceforge.jtds.jdbc.driver");
+            String connectionUrl = "jdbc:jtds:sqlserver://"+ip+":"+port+";databasename="+databasename+";User="+username+";password="+password+";";
+            con = DriverManager.getConnection(connectionUrl);
+
+        } catch (Exception exception) {
+            Log.e("Error", exception.getMessage());
+        }
+        return con;
+        }
+  */
+
+
+
 
     private void addcard(String btnClass, String yrlvl) {
 
         View view = getLayoutInflater().inflate(R.layout.list_item, null);
         TextView nameView = view.findViewById(R.id.className);
         TextView yearLevel = view.findViewById(R.id.yearLevel);
+        //Button delete = findViewById(R.id.delete2);
 
         nameView.setText(btnClass);
         yearLevel.setText(yrlvl);
 
 
+        //    SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(pen.this);
+        //  pref.edit().putString("name",username).apply();
+        // pref.edit().putString("year", year).apply();
+
+        // String savedText = pref.getString("name", "");
+        //   String savedText1 = pref.getString("year", "");
+
         Layout.addView(view);
 
 
 
-
-        view.setOnLongClickListener(new View.OnLongClickListener() {
-            @Override
-            public boolean onLongClick(View v) {
-
-                Layout.removeView(view);
-                return true;
-            }
-        });
 
 
 
@@ -400,31 +451,36 @@ public class pen extends AppCompatActivity {
         for (int i = 0; i < Layout.getChildCount(); i++) {
             View childView = Layout.getChildAt(i);
 
-
-
-
-        childView.setClickable(true);
+            childView.setClickable(true);
             int finalI = i;
             childView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+                @Override
+                public void onClick(View v) {
 
-                if (finalI == 0) {
-                    startActivity(new Intent(pen.this, Class0.class));
 
-                } else if (finalI == 1) {
-                    startActivity(new Intent(pen.this, Class1.class));
-                } else if (finalI == 2) {
-                    startActivity(new Intent(pen.this, Class2.class));
-                } else if (finalI == 3) {
-                    startActivity(new Intent(pen.this, Class3.class));
+                    if (finalI == 0) {
+                        startActivity(new Intent(pen.this, Class0.class));
 
+                    } else if (finalI == 1) {
+                        startActivity(new Intent(pen.this, Class1.class));
+                    } else if (finalI == 2) {
+                        startActivity(new Intent(pen.this, Class2.class));
+                    } else if (finalI == 3) {
+                        startActivity(new Intent(pen.this, Class3.class));
+
+                    }
                 }
 
-            }
 
+            });
 
-        });
+            view.setOnLongClickListener(new View.OnLongClickListener() {
+                @Override
+                public boolean onLongClick(View view) {
+                    Layout.removeView(view);
+                    return true;
+                }
+            });
 
 
 
@@ -451,14 +507,30 @@ public class pen extends AppCompatActivity {
 
 
 
+
+
+        }
+
+
+    }
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+
+        buildDialog();
+
+
+    }
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+
+   buildDialog();
+
+    }
+
 }
-
-
-        }
-
-
-        }
-
 
 
 
