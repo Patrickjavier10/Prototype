@@ -31,6 +31,8 @@ import androidx.preference.PreferenceManager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import org.apache.poi.sl.usermodel.Line;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -50,10 +52,6 @@ public class pen extends AppCompatActivity {
     AlertDialog dialog;
 
 
-
-
-
-
     private BottomNavigationView bottomNavigationView;
 
     @Override
@@ -64,7 +62,6 @@ public class pen extends AppCompatActivity {
 
         Layout = findViewById(R.id.container);
         // ta = findViewById(R.id.textView6);
-
 
 
 
@@ -321,6 +318,10 @@ public class pen extends AppCompatActivity {
 
         });*/
 
+
+
+
+
     private void buildDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         View view = getLayoutInflater().inflate(R.layout.layout_dialog, null);
@@ -448,6 +449,9 @@ public class pen extends AppCompatActivity {
 
 
 
+
+
+
         for (int i = 0; i < Layout.getChildCount(); i++) {
             View childView = Layout.getChildAt(i);
 
@@ -513,12 +517,15 @@ public class pen extends AppCompatActivity {
 
 
     }
+
+
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
 
 
         buildDialog();
+
 
 
     }

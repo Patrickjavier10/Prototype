@@ -24,7 +24,7 @@ import static com.apps.kunalfarmah.omrscanner.MainActivity.file;
 
 public class Results extends AppCompatActivity {
 
-    TextView results,score;
+    TextView results,score, scoreText;
     Button check;
     int MY_STORAGE_PERMISSION_CODE  = 102;
     @Override
@@ -33,6 +33,8 @@ public class Results extends AppCompatActivity {
         setContentView(R.layout.activity_results);
 
         Objects.requireNonNull(getSupportActionBar()).setTitle("Scanned Results");
+
+    // scoreText.findViewById(R.id.scoreText);
 
         results = findViewById(R.id.answers);
         results.setText(readFile(file));
@@ -79,9 +81,16 @@ public class Results extends AppCompatActivity {
                     startActivity(new Intent(Results.this,StartActivity.class));
                 }
                 score.setVisibility(View.VISIBLE);
-                score.setText("Score is: "+s/maxscore*100+"%");
+                //String scores = "Score is ";
+                //String number = s/maxscore*100+"%";
+                score.setText("Score is: "+s/maxscore*100+"%" +"\n" + "\n    " +s + "/" + maxscore);
+
+             //   scoreText.setText(number);
+             //   scoreText.setVisibility(View.VISIBLE);
                 check.setVisibility(View.GONE);
                 Toast.makeText(getApplicationContext(),"The Score is "+s+"/"+maxscore,Toast.LENGTH_SHORT).show();
+
+
             }
         });
     }

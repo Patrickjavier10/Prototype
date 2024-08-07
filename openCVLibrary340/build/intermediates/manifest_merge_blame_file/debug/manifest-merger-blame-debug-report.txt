@@ -5,6 +5,6 @@
 5    android:versionName="3.4.0" >
 6
 7    <uses-sdk android:minSdkVersion="23" />
-7-->C:\Users\Miguel Villanueva\Prototype\openCVLibrary340\src\main\AndroidManifest.xml:6:5-47
+7-->C:\Users\patrick javier\AndroidStudioProjects\Optical-Mark-Recognition-Android\openCVLibrary340\src\main\AndroidManifest.xml:6:5-47
 8
 9</manifest>
