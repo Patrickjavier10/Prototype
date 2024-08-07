@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/values-ru-rRU/values-ru-rRU.xml",
+            "outputFile": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-18:/values-ru-rRU/values-ru-rRU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\patrick javier\\.gradle\\caches\\transforms-3\\5844ed16bed0859e17767e7e8d2060c2\\transformed\\jetified-android-image-cropper-2.5.0\\res\\values-ru-rRU\\values-ru-rRU.xml",

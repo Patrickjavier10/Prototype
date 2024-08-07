@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/values-si/values-si.xml",
+            "outputFile": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-18:/values-si/values-si.xml",
             "map": [
                 {
                     "source": "C:\\Users\\patrick javier\\.gradle\\caches\\transforms-3\\c1b59ea02e5f0d41bef567b374b644b9\\transformed\\jetified-play-services-base-17.0.0\\res\\values-si\\values.xml",

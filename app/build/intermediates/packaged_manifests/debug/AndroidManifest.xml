@@ -27,12 +27,6 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.apps.kunalfarmah.omrscanner.TeacherActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.apps.kunalfarmah.omrscanner.AdminPage"
-            android:exported="false" />
-        <activity
             android:name="com.apps.kunalfarmah.omrscanner.Excel"
             android:exported="false" />
         <activity

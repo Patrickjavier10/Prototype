@@ -2692,7 +2692,6 @@ string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
-string lib_name
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2757,7 +2756,6 @@ string search_menu_title
 string sortable_indicator_content_description
 string status_bar_notification_info_overflow
 string summary_collapsed_preference_list
-string text_string
 string v7_preference_off
 string v7_preference_on
 style AlertDialog_AppCompat

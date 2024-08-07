@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/values-de/values-de.xml",
+            "outputFile": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-18:/values-de/values-de.xml",
             "map": [
                 {
                     "source": "C:\\Users\\patrick javier\\.gradle\\caches\\transforms-3\\8fb7d3804f525c5664c3f4e0097c141d\\transformed\\preference-1.1.0\\res\\values-de\\values-de.xml",

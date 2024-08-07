@@ -1,15 +1,15 @@
-#Wed Aug 07 19:15:29 PST 2024
-base.0=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Optical-Mark-Recognition-Android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Optical-Mark-Recognition-Android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\10\\classes.dex
-base.10=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Optical-Mark-Recognition-Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.2=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Optical-Mark-Recognition-Android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\12\\classes.dex
-base.3=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Optical-Mark-Recognition-Android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\13\\classes.dex
-base.4=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Optical-Mark-Recognition-Android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\1\\classes.dex
-base.5=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Optical-Mark-Recognition-Android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\2\\classes.dex
-base.6=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Optical-Mark-Recognition-Android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\6\\classes.dex
-base.7=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Optical-Mark-Recognition-Android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\8\\classes.dex
-base.8=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Optical-Mark-Recognition-Android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\9\\classes.dex
-base.9=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Optical-Mark-Recognition-Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+#Wed Aug 07 20:27:33 PST 2024
+base.0=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Prototype\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Prototype\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\10\\classes.dex
+base.10=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Prototype\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.2=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Prototype\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\12\\classes.dex
+base.3=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Prototype\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\13\\classes.dex
+base.4=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Prototype\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\1\\classes.dex
+base.5=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Prototype\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\2\\classes.dex
+base.6=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Prototype\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\6\\classes.dex
+base.7=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Prototype\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\8\\classes.dex
+base.8=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Prototype\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\9\\classes.dex
+base.9=C\:\\Users\\patrick javier\\AndroidStudioProjects\\Prototype\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.0=classes.dex
 path.1=10/classes.dex
 path.10=11/classes.dex
