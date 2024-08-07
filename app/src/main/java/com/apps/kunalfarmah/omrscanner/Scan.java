@@ -2,10 +2,14 @@ package com.apps.kunalfarmah.omrscanner;
 
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.text.Html;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -25,14 +29,25 @@ import java.util.Set;
 
 public class Scan extends AppCompatActivity {
 
-    private EditText answerKeyEditText; // EditText for user input
+    private EditText answerKeyEditText;
     private SurfaceView surfaceView;
     private TextView tv;
     private CameraSource cameraSource;
     private static final int Permission = 100;
 
-    // List of keywords
-    private Set<String> keywords = new HashSet<>(Arrays.asList("Keyword1", "Keyword2", "Keyword3"));
+    private String previousDetectedText = "";
+    private boolean matchDisplayed = false;
+
+    private Handler handler = new Handler(Looper.getMainLooper());
+    private Runnable clearTextRunnable = new Runnable() {
+        @Override
+        public void run() {
+            tv.setText("");
+            previousDetectedText = "";
+            matchDisplayed = false;
+        }
+    };
+    private static final long CLEAR_TEXT_DELAY = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +57,8 @@ public class Scan extends AppCompatActivity {
         surfaceView = findViewById(R.id.surfaceView);
         tv = findViewById(R.id.script);
         answerKeyEditText = findViewById(R.id.answerKeyEditText);
+
+        tv.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
 
         startCameraSource();
     }
@@ -59,7 +76,6 @@ public class Scan extends AppCompatActivity {
                 @Override
                 public void surfaceCreated(@NonNull SurfaceHolder surfaceHolder) {
                     try {
-                        // Check CAMERA permission before starting the camera
                         if (ActivityCompat.checkSelfPermission(getApplicationContext(), android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
                             ActivityCompat.requestPermissions(Scan.this, new String[]{android.Manifest.permission.CAMERA}, Permission);
                             return;
@@ -88,39 +104,77 @@ public class Scan extends AppCompatActivity {
                 public void receiveDetections(Detector.Detections<TextBlock> detections) {
                     final SparseArray<TextBlock> items = detections.getDetectedItems();
                     if (items.size() != 0) {
-                        tv.post(new Runnable() {
-                            @Override
-                            public void run() {
-                                StringBuilder stringBuilder = new StringBuilder();
-                                for (int i = 0; i < items.size(); i++) {
-                                    TextBlock item = items.valueAt(i);
-                                    stringBuilder.append(item.getValue());
-                                    stringBuilder.append("\n");
+                        StringBuilder stringBuilder = new StringBuilder();
+                        for (int i = 0; i < items.size(); i++) {
+                            TextBlock item = items.valueAt(i);
+                            stringBuilder.append(item.getValue());
+                            stringBuilder.append("\n");
+                        }
+                        final String detectedText = stringBuilder.toString().trim();
+
+                        if (!detectedText.equals(previousDetectedText)) {
+                            previousDetectedText = detectedText;
+                            matchDisplayed = false;
+
+                            final String userInput = answerKeyEditText.getText().toString().trim();
+                            if (!userInput.isEmpty()) {
+                                final Set<String> userKeywords = new HashSet<>(Arrays.asList(userInput.split("\\s*,\\s*")));
+
+                                String highlightedText = detectedText;
+                                for (String keyword : userKeywords) {
+                                    highlightedText = highlightedText.replaceAll("(?i)" + keyword, "<font color='green'>" + keyword + "</font>");
                                 }
-                                String detectedText = stringBuilder.toString().trim(); // Trim the detected text
 
-                                // Get the user input from the EditText
-                                String userInput = answerKeyEditText.getText().toString().trim();
-
-                                // Check if the user input is not empty
-                                if (!userInput.isEmpty()) {
-                                    // Check if the detected text contains the user input (case-insensitive)
-                                    if (detectedText.toLowerCase().contains(userInput.toLowerCase())) {
-                                        tv.setText("Correct:\n" + detectedText);
-                                    } else {
-                                        tv.setText("Incorrect:\n" + detectedText);
+                                final String finalHighlightedText = highlightedText;
+                                runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        tv.setText(Html.fromHtml(finalHighlightedText));
                                     }
-                                } else {
-                                    // Clear the text view if the user input is empty
-                                    tv.setText("");
+                                });
+
+                                boolean matchFound = false;
+                                for (String keyword : userKeywords) {
+                                    if (detectedText.toLowerCase().contains(keyword.toLowerCase())) {
+                                        matchFound = true;
+                                        break;
+                                    }
                                 }
+
+                                if (matchFound) {
+                                    runOnUiThread(new Runnable() {
+                                        @Override
+                                        public void run() {
+                                            tv.append(Html.fromHtml("\n<font color='green'> Match found for keywords.</font>"));
+                                        }
+                                    });
+                                } else if (!matchDisplayed) {
+                                    runOnUiThread(new Runnable() {
+                                        @Override
+                                        public void run() {
+                                            tv.append(Html.fromHtml("\n<font color='red'> No match found for keywords.</font>"));
+                                            matchDisplayed = true;
+                                        }
+                                    });
+                                }
+                            } else {
+                                runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        tv.setText(detectedText);
+                                    }
+                                });
                             }
-                        });
+                        }
+
+                        handler.removeCallbacks(clearTextRunnable);
+                        handler.postDelayed(clearTextRunnable, CLEAR_TEXT_DELAY);
+                    } else {
+                        handler.postDelayed(clearTextRunnable, CLEAR_TEXT_DELAY);
                     }
                 }
             });
-
-
         }
     }
 }
+

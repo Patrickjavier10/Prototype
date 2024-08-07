@@ -58,8 +58,8 @@
             android:layout_marginBottom="25dp"
             android:background="@color/colorPrimary"
             android:padding="15dp"
-            android:rotationX="@android:integer/config_mediumAnimTime"
             android:text="Scan"
+            android:textAllCaps="false"
             android:textColor="@color/Yellow"
             android:textSize="30sp" />
 
