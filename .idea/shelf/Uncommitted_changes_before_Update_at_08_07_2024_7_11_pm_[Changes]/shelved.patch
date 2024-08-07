@@ -1,0 +1,68 @@
+Index: app/src/main/java/com/apps/kunalfarmah/omrscanner/Scan.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.apps.kunalfarmah.omrscanner;\r\n\r\nimport android.content.pm.PackageManager;\r\nimport android.os.Bundle;\r\nimport android.util.Log;\r\nimport android.util.SparseArray;\r\nimport android.view.SurfaceHolder;\r\nimport android.view.SurfaceView;\r\nimport android.widget.EditText;\r\nimport android.widget.TextView;\r\n\r\nimport androidx.annotation.NonNull;\r\nimport androidx.appcompat.app.AppCompatActivity;\r\nimport androidx.core.app.ActivityCompat;\r\n\r\nimport com.google.android.gms.vision.CameraSource;\r\nimport com.google.android.gms.vision.Detector;\r\nimport com.google.android.gms.vision.text.TextBlock;\r\nimport com.google.android.gms.vision.text.TextRecognizer;\r\n\r\nimport java.io.IOException;\r\nimport java.util.Arrays;\r\nimport java.util.HashSet;\r\nimport java.util.Set;\r\n\r\npublic class Scan extends AppCompatActivity {\r\n\r\n    private EditText answerKeyEditText; // EditText for user input\r\n    private SurfaceView surfaceView;\r\n    private TextView tv;\r\n    private CameraSource cameraSource;\r\n    private static final int Permission = 100;\r\n\r\n    // List of keywords\r\n    private Set<String> keywords = new HashSet<>(Arrays.asList(\"Keyword1\", \"Keyword2\", \"Keyword3\"));\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_scan);\r\n\r\n        surfaceView = findViewById(R.id.surfaceView);\r\n        tv = findViewById(R.id.script);\r\n        answerKeyEditText = findViewById(R.id.answerKeyEditText);\r\n\r\n        startCameraSource();\r\n    }\r\n\r\n    private void startCameraSource() {\r\n        final TextRecognizer textRecognizer = new TextRecognizer.Builder(getApplicationContext()).build();\r\n        if (!textRecognizer.isOperational()) {\r\n            Log.w(\"Tag\", \"Dependencies not loaded yet\");\r\n        } else {\r\n            cameraSource = new CameraSource.Builder(getApplicationContext(), textRecognizer)\r\n                    .setFacing(CameraSource.CAMERA_FACING_BACK).setRequestedPreviewSize(1280, 1024)\r\n                    .setAutoFocusEnabled(true).setRequestedFps(2.0f).build();\r\n\r\n            surfaceView.getHolder().addCallback(new SurfaceHolder.Callback() {\r\n                @Override\r\n                public void surfaceCreated(@NonNull SurfaceHolder surfaceHolder) {\r\n                    try {\r\n                        // Check CAMERA permission before starting the camera\r\n                        if (ActivityCompat.checkSelfPermission(getApplicationContext(), android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {\r\n                            ActivityCompat.requestPermissions(Scan.this, new String[]{android.Manifest.permission.CAMERA}, Permission);\r\n                            return;\r\n                        }\r\n                        cameraSource.start(surfaceView.getHolder());\r\n                    } catch (IOException e) {\r\n                        e.printStackTrace();\r\n                    }\r\n                }\r\n\r\n                @Override\r\n                public void surfaceChanged(@NonNull SurfaceHolder surfaceHolder, int format, int width, int height) {\r\n                }\r\n\r\n                @Override\r\n                public void surfaceDestroyed(@NonNull SurfaceHolder surfaceHolder) {\r\n                    cameraSource.stop();\r\n                }\r\n            });\r\n\r\n            textRecognizer.setProcessor(new Detector.Processor<TextBlock>() {\r\n                @Override\r\n                public void release() {}\r\n\r\n                @Override\r\n                public void receiveDetections(Detector.Detections<TextBlock> detections) {\r\n                    final SparseArray<TextBlock> items = detections.getDetectedItems();\r\n                    if (items.size() != 0) {\r\n                        tv.post(new Runnable() {\r\n                            @Override\r\n                            public void run() {\r\n                                StringBuilder stringBuilder = new StringBuilder();\r\n                                for (int i = 0; i < items.size(); i++) {\r\n                                    TextBlock item = items.valueAt(i);\r\n                                    stringBuilder.append(item.getValue());\r\n                                    stringBuilder.append(\"\\n\");\r\n                                }\r\n                                String detectedText = stringBuilder.toString().trim(); // Trim the detected text\r\n\r\n                                // Get the user input from the EditText\r\n                                String userInput = answerKeyEditText.getText().toString().trim();\r\n\r\n                                // Check if the user input is not empty\r\n                                if (!userInput.isEmpty()) {\r\n                                    // Check if the detected text contains the user input (case-insensitive)\r\n                                    if (detectedText.toLowerCase().contains(userInput.toLowerCase())) {\r\n                                        tv.setText(\"Correct:\\n\" + detectedText);\r\n                                    } else {\r\n                                        tv.setText(\"Incorrect:\\n\" + detectedText);\r\n                                    }\r\n                                } else {\r\n                                    // Clear the text view if the user input is empty\r\n                                    tv.setText(\"\");\r\n                                }\r\n                            }\r\n                        });\r\n                    }\r\n                }\r\n            });\r\n\r\n\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/apps/kunalfarmah/omrscanner/Scan.java b/app/src/main/java/com/apps/kunalfarmah/omrscanner/Scan.java
+--- a/app/src/main/java/com/apps/kunalfarmah/omrscanner/Scan.java	
++++ b/app/src/main/java/com/apps/kunalfarmah/omrscanner/Scan.java	
+@@ -1,7 +1,13 @@
+ package com.apps.kunalfarmah.omrscanner;
+ 
+ import android.content.pm.PackageManager;
++import android.graphics.Color;
+ import android.os.Bundle;
++import android.text.Html;
++import android.text.SpannableString;
++import android.text.SpannableStringBuilder;
++import android.text.Spanned;
++import android.text.style.ForegroundColorSpan;
+ import android.util.Log;
+ import android.util.SparseArray;
+ import android.view.SurfaceHolder;
+@@ -80,10 +86,14 @@
+                 }
+             });
+ 
++
++
+             textRecognizer.setProcessor(new Detector.Processor<TextBlock>() {
+                 @Override
+                 public void release() {}
+ 
++
++
+                 @Override
+                 public void receiveDetections(Detector.Detections<TextBlock> detections) {
+                     final SparseArray<TextBlock> items = detections.getDetectedItems();
+@@ -102,13 +112,27 @@
+                                 // Get the user input from the EditText
+                                 String userInput = answerKeyEditText.getText().toString().trim();
+ 
++
++                                String a = "Correct:";
++
++                               // SpannableString redSpannable= new SpannableString(a);
++                                //ForegroundColorSpan red = new ForegroundColorSpan(Color.RED);
++                                //redSpannable.setSpan(red, 0,6, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
++
++                                //String s="Hello World";
++                                //SpannableString ss=  new SpannableString(s);
++                                //ss.setSpan(new ForegroundColorSpan(Color.GREEN), 0, 5, 0);
++
++
+                                 // Check if the user input is not empty
+                                 if (!userInput.isEmpty()) {
+                                     // Check if the detected text contains the user input (case-insensitive)
+                                     if (detectedText.toLowerCase().contains(userInput.toLowerCase())) {
+-                                        tv.setText("Correct:\n" + detectedText);
++                                        tv.setText(a +"\n" + detectedText);
++
+                                     } else {
+                                         tv.setText("Incorrect:\n" + detectedText);
++                                       // tv.setTextColor((Color.rgb(200,0,0)));
+                                     }
+                                 } else {
+                                     // Clear the text view if the user input is empty

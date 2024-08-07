@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apps.kunalfarmah.omrscanner"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/pen_exam"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/pen_exam"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.TeacherActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.AdminPage"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.Excel"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.Search"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.ReportData"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.ExcelData"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.AnswersActivity"
+            android:label="@string/project_name" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.StartActivity"
+            android:label="@string/project_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.apps.kunalfarmah.omrscanner.Results" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.MainActivity"
+            android:label="@string/project_name" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:label="@string/project_name"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.pen"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.Scan"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.Class3"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.Class2"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.Class0"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.AboutPage"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
