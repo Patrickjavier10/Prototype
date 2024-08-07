@@ -25,7 +25,7 @@
 15-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:9:22-76
 16
 17    <application
-17-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:11:5-87:19
+17-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:11:5-95:19
 18        android:allowBackup="true"
 18-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:12:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -177,20 +177,32 @@
 95            android:exported="false" />
 95-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:86:13-37
 96        <activity
-96-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-97            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-97-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-98            android:exported="false"
-98-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-99            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-99-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-100
-101        <meta-data
-101-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\48483b2fb3ba3ceef119f054955b312e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-102            android:name="com.google.android.gms.version"
-102-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\48483b2fb3ba3ceef119f054955b312e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-103            android:value="@integer/google_play_services_version" />
-103-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\48483b2fb3ba3ceef119f054955b312e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-104    </application>
-105
-106</manifest>
+96-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:87:9-89:40
+97            android:name="com.apps.kunalfarmah.omrscanner.TeacherActivity"
+97-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:88:13-44
+98            android:exported="false" />
+98-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:89:13-37
+99        <activity
+99-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:91:9-93:40
+100            android:name="com.apps.kunalfarmah.omrscanner.AdminPage"
+100-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:92:13-38
+101            android:exported="false" />
+101-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:93:13-37
+102        <activity
+102-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+106
+107        <meta-data
+107-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\48483b2fb3ba3ceef119f054955b312e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+108            android:name="com.google.android.gms.version"
+108-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\48483b2fb3ba3ceef119f054955b312e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+109            android:value="@integer/google_play_services_version" />
+109-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\48483b2fb3ba3ceef119f054955b312e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+110    </application>
+111
+112</manifest>

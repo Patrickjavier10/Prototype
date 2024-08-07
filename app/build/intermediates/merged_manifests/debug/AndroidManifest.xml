@@ -94,6 +94,12 @@
             android:name="com.apps.kunalfarmah.omrscanner.RegisterActivity"
             android:exported="false" />
         <activity
+            android:name="com.apps.kunalfarmah.omrscanner.TeacherActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.kunalfarmah.omrscanner.AdminPage"
+            android:exported="false" />
+        <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
