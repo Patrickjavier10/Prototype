@@ -1,325 +1,89 @@
 package com.apps.kunalfarmah.omrscanner;
 
-
-
-
-import static android.view.Gravity.apply;
-
-import android.annotation.SuppressLint;
-import android.app.LauncherActivity;
+import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.os.StrictMode;
 import android.text.Html;
-import android.text.Layout;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.preference.PreferenceManager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
-
+import java.util.List;
 
 public class pen extends AppCompatActivity {
 
-    ImageView iv;
-    Button button, button1, button2;
-
-
-    LinearLayout Layout;
-    //TextView ta;
-
-
-    AlertDialog dialog;
-
-
-
-
-
-
+    private LinearLayout layout;
+    private AlertDialog dialog;
     private BottomNavigationView bottomNavigationView;
+    private Button button;
+    private DatabaseHelper databaseHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pen);
 
-
-        Layout = findViewById(R.id.container);
-        // ta = findViewById(R.id.textView6);
-
-
-
-
-
-
-        buildDialog();
-
-
-        // binding = ActivityMainBinding.inflate(getLayoutInflater());
-        // setContentView(binding.getRoot());
-
-
-        //  iv = findViewById(R.id.scanner);
-
+        layout = findViewById(R.id.container);
         button = findViewById(R.id.AddClass);
-
-
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
+        // Initialize database helper
+        databaseHelper = new DatabaseHelper(this);
 
-        // iv.setOnClickListener(new View.OnClickListener() {
-        //   @Override
-        //  public void onClick(View view) {
-        // startActivity(new Intent(pen.this, Scan.class));
-        // }
+        // Build the dialog for adding a class
+        buildDialog();
 
-        //}
+        // Set up the bottom navigation
+        setupBottomNavigation();
 
+        // Set up the add class button
+        setupAddClassButton();
 
-        //This is  a code to that adds functionality to the bottom navigation view.
+        // Load saved classes from the database and display them
+        loadSavedClasses();
+    }
 
+    private void setupBottomNavigation() {
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
-
-                    case R.id.Home: {
+                    case R.id.Home:
                         Toast.makeText(pen.this, "Home Selected", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(pen.this, StartActivity.class));
-
                         break;
-                    }
-                    case R.id.scans: {
+                    case R.id.scans:
                         Toast.makeText(pen.this, "Scan Selected", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(pen.this, Scan.class));
                         break;
-                    }
-                    case R.id.classes: {
-
-
-                        //   getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ScanFragment()).commit();
+                    case R.id.classes:
                         Toast.makeText(pen.this, "Classes Selected", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(pen.this, pen.class));
                         break;
-                    }
                 }
-
                 return false;
             }
         });
+    }
 
-
-        //Logout button to log in module
+    private void setupAddClassButton() {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 dialog.show();
-
-
-            }
-        });
-
-
-
-
-   /*     setupData();
-
-        setupList();
-
-        setUpOnClickListener();
-    }
-
-    private void setupData() {
-
-    }
-
-
-    private void setupList() {
-
-        listView = (ListView) findViewById(R.id.list_item);
-
-        //ListAdapter adapter = new ListAdapter(getApplicationContext(),0 list_sections);
-//        listView.setAdapter(adapter);
-
-    }
-
-
-    private void setUpOnClickListener() {
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                List_Section select = (List_Section) (listView.getItemAtPosition(position));
-                Intent showDetail = new Intent(getApplicationContext(), List_Section.class);
             }
         });
     }
-
-*/
-
-        //String[] className = {"BSCS - 601", "BSIT - 401", "BSTM -701", "BSCRIM - 201", "BSCRIM - 201", "BSCRIM - 201"};
-
-        //String[] yeaLevel = {"3rd Year", "2nd Year", "4th year", "1st year", "1st year", "1st year"};
-
-        // listView = findViewById(R.layout.list_item);
-
-        // ArrayList<List_Section> list_SectionArrayList = new ArrayList<>();
-
-        // for (int i = 0; i < className.length; i++) {
-
-        //   list_section = new List_Section(className[i], yeaLevel[i]);
-
-        // list_sections.add(list_section);
-
-     /*    ListView listView = findViewById(R.id.list_item);
-        List<String> list = new ArrayList<>();
-
-        list.add("BSCS - 601");
-       list.add("BSCS - 602");
-        list.add("BSCRIM - 201");
-        list.add("BSIT - 204");
-        list.add("BSIT - 205");
-        list.add("BSIT - 206");
-        list.add("BSIT - 207");
-        list.add("BSIT - 208");
-
-
-        ArrayAdapter arrayAdapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, list);
-
-
-        listView.setAdapter(arrayAdapter);
-
-        listView.setClickable(true);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position == 0) {
-                    startActivity(new Intent(pen.this, CS_601.class));
-                }
-                if (position == 1) {
-                    startActivity(new Intent(pen.this, CS_602.class));
-                }
-            }
-
-
-        });
-        //    list_SectionArrayList.add(list_section);
-        //  }
-
-        //    ListAdapter listAdapter = new ListAdapter(pen.this, list_SectionArrayList);
-
-        //  binding.listview.setAdapter(listAdapter);
-    }
-  /*  public void order(View v){
-//Create excel to android app
-        try {
-            AssetManager am = getAssets();
-            InputStream is = am.open("Book1.xls");
-            Workbook wb = Workbook.getWorkbook(is);
-            Sheet s = wb.getSheet(0);
-            int row =s.getRows();
-            int col = s.getColumns();
-            String xx="";
-
-            for (int i=0; i<row; i++){
-                for(int c=0; c<col; c++){
-                    Cell z  =s.getCell(c,i);
-                     xx= xx+z.getContents();
-
-                }
-                xx=xx +"\n";
-            }
-            displayy(xx);
-
-
-        }catch (Exception e){
-
-        }
-
-    }
-        public void displayy (String value){
-
-            TextView x = (TextView) findViewById(R.id.textView23);
-            x.setText(value);
-       }*/
-
-    }
-
-
-
-
-
-
-    public void openDialog() {
-        ExampleDialog exampleDialog = new ExampleDialog();
-        exampleDialog.show(getSupportFragmentManager(), "ExampleDialog");
-
-
-    }
-
-
-//    @Override
-    //  public void applyTexts(String input) {
-
-
-    //  ListView listView = findViewById(R.id.list_item);
-
-
-    //  ArrayList<String> list = new ArrayList<>();
-
-
-    //   ArrayAdapter arrayAdapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, list);
-
-
-    //    listView.setAdapter(arrayAdapter);
-
-
-    //   list.add(input);
-
-
-    // list.add("BSCS - 602");
-    // list.add("BSCRIM - 201");
-    // list.add("BSIT - 204");
-    // list.add("BSIT - 205");
-    // list.add("BSIT - 206");
-    // list.add("BSIT - 207");
-    // list.add("BSIT - 208");
-
-
-       /* listView.setClickable(true);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position == 0) {
-
-                    startActivity(new Intent(pen.this, CS_601.class));
-                }
-                if (position == 1) {
-
-                    startActivity(new Intent(pen.this, CS_602.class));
-                }
-            }
-
-
-        });*/
 
     private void buildDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -327,228 +91,62 @@ public class pen extends AppCompatActivity {
         EditText name = view.findViewById(R.id.btnClass);
         EditText yearlvl = view.findViewById(R.id.yrlvl);
 
-
         builder.setView(view)
-                .setTitle(Html.fromHtml("<font color='#000080' >" + "Add Class Name"))
+                .setTitle(Html.fromHtml("<font color='#000080' >Add Class Name</font>"))
                 .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.cancel();
-
                     }
                 })
-
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        addcard(name.getText().toString(), yearlvl.getText().toString());
-                        String username = name.getText().toString();
-                        String year = yearlvl.getText().toString();
-                        Intent intent = new Intent(pen.this, Class0.class);
-                        intent.putExtra("keyname", username);
-                        intent.putExtra("year", year);
+                        String className = name.getText().toString();
+                        String yearLevel = yearlvl.getText().toString();
 
+                        if (!className.isEmpty() && !yearLevel.isEmpty()) {
+                            // Save the class to the database
+                            databaseHelper.addClass(className, yearLevel);
 
-
-                     //   ClassesDatabase gv = new ClassesDatabase(getApplicationContext(), "ad", null, 1);
-
-
-                     //   gv.addClass(name.getText().toString().trim(), yearlvl.getText().toString().trim());
-
-                        //startActivity(intent);
-                      //  SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(pen.this);
-//                        SharedPreferences.Editor editor = pref.edit();
-
-                        //                      editor.putString("name", addcard(name.getText().toString(), yearlvl.getText().toString()));
-                        //                    editor.apply();
-                        //pref.edit().putString("name",username).apply();
-                        //pref.edit().putString("year", year).apply();
-
-                        //String savedText = pref.getString("name", "");
-                        //String savedText1 = pref.getString("year", "");
-
-                        //     TextView n = findViewById(R.id.className);
-                        //   TextView v = findViewById(R.id.yearLevel);
-
-                        //   n.setText(savedText);
-                        //  v.setText(savedText1);
-
-                     /*   Connection connection = connectionclass();
-                        try {
-                            if (connection != null) {
-
-                                //  String sqlinsert = "Insert Into ClassName values('" + view + "')";
-                                String sqlinsert = "Insert into ClassName values('" + name.getText().toString() + "','" + yearlvl.getText().toString() + "')";
-                                Statement st = connection.createStatement();
-                                ResultSet rs = st.executeQuery(sqlinsert);
-
-                            }
-                        } catch (Exception exception) {
-                            Log.e("Error", exception.getMessage());
-
+                            // Add the class to the UI
+                            addClassCard(className, yearLevel);
+                        } else {
+                            Toast.makeText(pen.this, "Please enter both class name and year level.", Toast.LENGTH_SHORT).show();
                         }
-
-*/
                     }
-
                 });
 
-
         dialog = builder.create();
-
-
     }
 
- /*   @SuppressLint("NewApi")
-    public Connection connectionclass() {
-        Connection con = null;
-        String ip = "192.168.56.1", port = "60353", username = "sa", password = "androidstudio", databasename = "ClassName";
-        StrictMode.ThreadPolicy tp = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-        StrictMode.setThreadPolicy(tp);
-
-
-        try {
-            Class.forName("net.sourceforge.jtds.jdbc.driver");
-            String connectionUrl = "jdbc:jtds:sqlserver://"+ip+":"+port+";databasename="+databasename+";User="+username+";password="+password+";";
-            con = DriverManager.getConnection(connectionUrl);
-
-        } catch (Exception exception) {
-            Log.e("Error", exception.getMessage());
-        }
-        return con;
-        }
-  */
-
-
-
-
-    private void addcard(String btnClass, String yrlvl) {
-
+    private void addClassCard(String className, String yearLevel) {
         View view = getLayoutInflater().inflate(R.layout.list_item, null);
         TextView nameView = view.findViewById(R.id.className);
-        TextView yearLevel = view.findViewById(R.id.yearLevel);
-        //Button delete = findViewById(R.id.delete2);
+        TextView yearLevelView = view.findViewById(R.id.yearLevel);
 
-        nameView.setText(btnClass);
-        yearLevel.setText(yrlvl);
+        nameView.setText(className);
+        yearLevelView.setText(yearLevel);
 
+        layout.addView(view);
 
-        //    SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(pen.this);
-        //  pref.edit().putString("name",username).apply();
-        // pref.edit().putString("year", year).apply();
+        view.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                // Remove the class from the database
+                databaseHelper.deleteClass(className, yearLevel);
 
-        // String savedText = pref.getString("name", "");
-        //   String savedText1 = pref.getString("year", "");
+                // Remove the view from the UI
+                layout.removeView(view);
+                return true;
+            }
+        });
+    }
 
-        Layout.addView(view);
-
-
-
-
-
-
-
-        for (int i = 0; i < Layout.getChildCount(); i++) {
-            View childView = Layout.getChildAt(i);
-
-            childView.setClickable(true);
-            int finalI = i;
-            childView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-
-                    if (finalI == 0) {
-                        startActivity(new Intent(pen.this, Class0.class));
-
-                    } else if (finalI == 1) {
-                        startActivity(new Intent(pen.this, Class1.class));
-                    } else if (finalI == 2) {
-                        startActivity(new Intent(pen.this, Class2.class));
-                    } else if (finalI == 3) {
-                        startActivity(new Intent(pen.this, Class3.class));
-
-                    }
-                }
-
-
-            });
-
-            view.setOnLongClickListener(new View.OnLongClickListener() {
-                @Override
-                public boolean onLongClick(View view) {
-                    Layout.removeView(view);
-                    return true;
-                }
-            });
-
-
-
-
-          /*  for (int c = 0; c < Layout.getChildCount(); i++) {
-                View childView2 = Layout.getChildAt(i);
-
-
-                childView2.setOnLongClickListener(new View.OnLongClickListener() {
-                @Override
-                public boolean onLongClick(View v) {
-
-                    int finalC = c;
-                    if (finalC == 0) ;
-                    {
-                        Layout.removeView(view);
-                    }
-                    {
-                        return true;
-                    }
-                }
-            });
-*/
-
-
-
-
-
+    private void loadSavedClasses() {
+        List<String[]> savedClasses = databaseHelper.getAllClasses();
+        for (String[] classData : savedClasses) {
+            addClassCard(classData[0], classData[1]);
         }
-
-
     }
-    @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-
-
-        buildDialog();
-
-
-    }
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-
-   buildDialog();
-
-    }
-
 }
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
