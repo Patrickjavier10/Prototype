@@ -25,7 +25,7 @@
 15-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:9:22-76
 16
 17    <application
-17-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:11:5-95:19
+17-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:11:5-96:19
 18        android:allowBackup="true"
 18-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:12:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -46,163 +46,169 @@
 28        android:theme="@style/AppTheme" >
 28-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:18:9-40
 29        <activity
-29-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:20:9-22:40
-30            android:name="com.apps.kunalfarmah.omrscanner.Excel"
-30-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:21:13-34
+29-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:20:9-22:44
+30            android:name="com.apps.kunalfarmah.omrscanner.BarChartActivity"
+30-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:21:13-45
 31            android:exported="false" />
 31-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:22:13-37
 32        <activity
 32-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:23:9-25:40
-33            android:name="com.apps.kunalfarmah.omrscanner.Search"
-33-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:24:13-35
+33            android:name="com.apps.kunalfarmah.omrscanner.Excel"
+33-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:24:13-34
 34            android:exported="false" />
 34-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:25:13-37
 35        <activity
 35-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:26:9-28:40
-36            android:name="com.apps.kunalfarmah.omrscanner.ReportData"
-36-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:27:13-39
+36            android:name="com.apps.kunalfarmah.omrscanner.Search"
+36-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:27:13-35
 37            android:exported="false" />
 37-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:28:13-37
 38        <activity
 38-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:29:9-31:40
-39            android:name="com.apps.kunalfarmah.omrscanner.ExcelData"
-39-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:30:13-38
+39            android:name="com.apps.kunalfarmah.omrscanner.ReportData"
+39-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:30:13-39
 40            android:exported="false" />
 40-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:31:13-37
 41        <activity
 41-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:32:9-34:40
-42            android:name="com.apps.kunalfarmah.omrscanner.LoginActivity"
-42-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:33:13-42
+42            android:name="com.apps.kunalfarmah.omrscanner.ExcelData"
+42-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:33:13-38
 43            android:exported="false" />
 43-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:34:13-37
 44        <activity
-44-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:35:9-37:52
-45            android:name="com.apps.kunalfarmah.omrscanner.AnswersActivity"
-45-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:36:13-44
-46            android:label="@string/project_name" />
-46-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:37:13-49
+44-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:35:9-37:40
+45            android:name="com.apps.kunalfarmah.omrscanner.StartActivity"
+45-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:36:13-42
+46            android:exported="false" />
+46-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:37:13-37
 47        <activity
-47-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:38:9-46:20
-48            android:name="com.apps.kunalfarmah.omrscanner.StartActivity"
-48-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:39:13-42
-49            android:label="@string/project_name" >
+47-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:38:9-40:52
+48            android:name="com.apps.kunalfarmah.omrscanner.AnswersActivity"
+48-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:39:13-44
+49            android:label="@string/project_name" />
 49-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:40:13-49
-50            <intent-filter>
-50-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:41:13-45:29
-51                <action android:name="android.intent.action.MAIN" />
-51-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:42:17-69
-51-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:42:25-66
-52
-53                <category android:name="android.intent.category.LAUNCHER" />
-53-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:44:17-77
-53-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:44:27-74
-54            </intent-filter>
-55        </activity>
-56        <activity android:name="com.apps.kunalfarmah.omrscanner.Results" />
-56-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:47:9-45
-56-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:47:19-42
-57
-58        <provider
-58-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:49:9-57:20
-59            android:name="androidx.core.content.FileProvider"
-59-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:50:13-62
-60            android:authorities="com.example.android.fileprovider"
-60-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:51:13-67
-61            android:exported="false"
-61-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:52:13-37
-62            android:grantUriPermissions="true" >
-62-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:53:13-47
-63            <meta-data
-63-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:54:13-56:54
-64                android:name="android.support.FILE_PROVIDER_PATHS"
-64-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:55:17-67
-65                android:resource="@xml/file_paths" />
-65-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:56:17-51
-66        </provider>
-67
-68        <activity
-68-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:59:9-61:52
-69            android:name="com.apps.kunalfarmah.omrscanner.MainActivity"
-69-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:60:13-41
-70            android:label="@string/project_name" />
-70-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:61:13-49
+50        <activity
+50-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:41:9-49:20
+51            android:name="com.apps.kunalfarmah.omrscanner.LoginActivity"
+51-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:42:13-42
+52            android:label="@string/project_name" >
+52-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:43:13-49
+53            <intent-filter>
+53-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:44:13-48:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:45:17-69
+54-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:45:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:47:17-77
+56-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:47:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity android:name="com.apps.kunalfarmah.omrscanner.Results" />
+59-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:50:9-45
+59-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:50:19-42
+60
+61        <provider
+61-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:52:9-60:20
+62            android:name="androidx.core.content.FileProvider"
+62-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:53:13-62
+63            android:authorities="com.example.android.fileprovider"
+63-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:54:13-67
+64            android:exported="false"
+64-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:55:13-37
+65            android:grantUriPermissions="true" >
+65-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:56:13-47
+66            <meta-data
+66-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:57:13-59:54
+67                android:name="android.support.FILE_PROVIDER_PATHS"
+67-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:58:17-67
+68                android:resource="@xml/file_paths" />
+68-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:59:17-51
+69        </provider>
+70
 71        <activity
-71-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:62:9-65:59
-72            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-72-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:63:13-76
-73            android:label="@string/project_name"
+71-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:62:9-64:52
+72            android:name="com.apps.kunalfarmah.omrscanner.MainActivity"
+72-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:63:13-41
+73            android:label="@string/project_name" />
 73-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:64:13-49
-74            android:theme="@style/Base.Theme.AppCompat" />
-74-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:65:13-56
-75        <activity
-75-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:66:9-68:40
-76            android:name="com.apps.kunalfarmah.omrscanner.pen"
-76-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:67:13-32
-77            android:exported="false" />
-77-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:68:13-37
+74        <activity
+74-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:65:9-68:59
+75            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+75-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:66:13-76
+76            android:label="@string/project_name"
+76-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:67:13-49
+77            android:theme="@style/Base.Theme.AppCompat" />
+77-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:68:13-56
 78        <activity
 78-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:69:9-71:40
-79            android:name="com.apps.kunalfarmah.omrscanner.Scan"
-79-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:70:13-33
+79            android:name="com.apps.kunalfarmah.omrscanner.pen"
+79-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:70:13-32
 80            android:exported="false" />
 80-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:71:13-37
 81        <activity
 81-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:72:9-74:40
-82            android:name="com.apps.kunalfarmah.omrscanner.Class3"
-82-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:73:13-35
+82            android:name="com.apps.kunalfarmah.omrscanner.Scan"
+82-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:73:13-33
 83            android:exported="false" />
 83-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:74:13-37
 84        <activity
 84-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:75:9-77:40
-85            android:name="com.apps.kunalfarmah.omrscanner.Class2"
+85            android:name="com.apps.kunalfarmah.omrscanner.Class3"
 85-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:76:13-35
 86            android:exported="false" />
 86-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:77:13-37
 87        <activity
 87-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:78:9-80:40
-88            android:name="com.apps.kunalfarmah.omrscanner.Class0"
+88            android:name="com.apps.kunalfarmah.omrscanner.Class2"
 88-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:79:13-35
 89            android:exported="false" />
 89-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:80:13-37
 90        <activity
 90-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:81:9-83:40
-91            android:name="com.apps.kunalfarmah.omrscanner.AboutPage"
-91-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:82:13-38
+91            android:name="com.apps.kunalfarmah.omrscanner.Class0"
+91-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:82:13-35
 92            android:exported="false" />
 92-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:83:13-37
 93        <activity
 93-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:84:9-86:40
-94            android:name="com.apps.kunalfarmah.omrscanner.RegisterActivity"
-94-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:85:13-45
+94            android:name="com.apps.kunalfarmah.omrscanner.AboutPage"
+94-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:85:13-38
 95            android:exported="false" />
 95-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:86:13-37
 96        <activity
 96-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:87:9-89:40
-97            android:name="com.apps.kunalfarmah.omrscanner.TeacherActivity"
-97-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:88:13-44
+97            android:name="com.apps.kunalfarmah.omrscanner.RegisterActivity"
+97-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:88:13-45
 98            android:exported="false" />
 98-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:89:13-37
 99        <activity
-99-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:91:9-93:40
-100            android:name="com.apps.kunalfarmah.omrscanner.AdminPage"
-100-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:92:13-38
+99-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:90:9-92:40
+100            android:name="com.apps.kunalfarmah.omrscanner.TeacherActivity"
+100-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:91:13-44
 101            android:exported="false" />
-101-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:93:13-37
+101-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:92:13-37
 102        <activity
-102-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-103-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-104            android:exported="false"
-104-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-105-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-106
-107        <meta-data
-107-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\48483b2fb3ba3ceef119f054955b312e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-108            android:name="com.google.android.gms.version"
-108-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\48483b2fb3ba3ceef119f054955b312e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-109            android:value="@integer/google_play_services_version" />
-109-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\48483b2fb3ba3ceef119f054955b312e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-110    </application>
-111
-112</manifest>
+102-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:93:9-95:40
+103            android:name="com.apps.kunalfarmah.omrscanner.AdminPage"
+103-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:94:13-38
+104            android:exported="false" />
+104-->C:\Users\patrick javier\AndroidStudioProjects\Prototype\app\src\main\AndroidManifest.xml:95:13-37
+105        <activity
+105-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+106            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+106-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\48483b2fb3ba3ceef119f054955b312e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\48483b2fb3ba3ceef119f054955b312e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\patrick javier\.gradle\caches\transforms-3\48483b2fb3ba3ceef119f054955b312e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+113    </application>
+114
+115</manifest>

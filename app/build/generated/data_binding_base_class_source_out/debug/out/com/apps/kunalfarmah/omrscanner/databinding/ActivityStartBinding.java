@@ -10,6 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.SwitchCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -51,11 +52,14 @@ public final class ActivityStartBinding implements ViewBinding {
   @NonNull
   public final Button setAnswers;
 
+  @NonNull
+  public final SwitchCompat swithMode;
+
   private ActivityStartBinding(@NonNull DrawerLayout rootView,
       @NonNull BottomNavigationView bottomNavigationView, @NonNull DrawerLayout drawerLayout,
       @NonNull FrameLayout fragmentContainer, @NonNull LinearLayout linearLayout,
       @NonNull ListView listView, @NonNull NavigationView navView, @NonNull Button reportAnalysis,
-      @NonNull Button scan, @NonNull Button setAnswers) {
+      @NonNull Button scan, @NonNull Button setAnswers, @NonNull SwitchCompat swithMode) {
     this.rootView = rootView;
     this.bottomNavigationView = bottomNavigationView;
     this.drawerLayout = drawerLayout;
@@ -66,6 +70,7 @@ public final class ActivityStartBinding implements ViewBinding {
     this.reportAnalysis = reportAnalysis;
     this.scan = scan;
     this.setAnswers = setAnswers;
+    this.swithMode = swithMode;
   }
 
   @Override
@@ -145,8 +150,15 @@ public final class ActivityStartBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.swithMode;
+      SwitchCompat swithMode = ViewBindings.findChildViewById(rootView, id);
+      if (swithMode == null) {
+        break missingId;
+      }
+
       return new ActivityStartBinding((DrawerLayout) rootView, bottomNavigationView, drawerLayout,
-          fragmentContainer, linearLayout, listView, navView, reportAnalysis, scan, setAnswers);
+          fragmentContainer, linearLayout, listView, navView, reportAnalysis, scan, setAnswers,
+          swithMode);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

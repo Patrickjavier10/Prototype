@@ -96,8 +96,8 @@ public class Scanner {
         // find rectangles
         HashMap<Double, MatOfPoint> rectangles = new HashMap<>();
         for(int i = 0; i < contours.size(); i++){
-            MatOfPoint2f approxCurve = new MatOfPoint2f( contours.get(i).toArray() );
-            approxPolyDP(approxCurve, approxCurve, 0.02 * arcLength(approxCurve, true), true);
+           MatOfPoint2f approxCurve = new MatOfPoint2f( contours.get(i).toArray() );
+            approxPolyDP(approxCurve, approxCurve,0.02 * arcLength(approxCurve, true), true);
 
             if(approxCurve.toArray().length == 4){
                 rectangles.put((double) i, contours.get(i));

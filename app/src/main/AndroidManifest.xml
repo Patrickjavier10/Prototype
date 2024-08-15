@@ -18,6 +18,9 @@
         android:theme="@style/AppTheme"
         tools:targetApi="q">
         <activity
+            android:name=".BarChartActivity"
+            android:exported="false"     />
+        <activity
             android:name=".Excel"
             android:exported="false" />
         <activity
@@ -30,13 +33,13 @@
             android:name=".ExcelData"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".StartActivity"
             android:exported="false" />
         <activity
             android:name=".AnswersActivity"
             android:label="@string/project_name" />
         <activity
-            android:name=".StartActivity"
+            android:name=".LoginActivity"
             android:label="@string/project_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -87,11 +90,9 @@
         <activity
             android:name=".TeacherActivity"
             android:exported="false" />
-
         <activity
             android:name=".AdminPage"
             android:exported="false" />
-
     </application>
 
 </manifest>

@@ -1036,6 +1036,8 @@ bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
 bool config_materialPreferenceIconSpaceReserved
 bool mtrl_btn_textappearance_all_caps
+color Black
+color White
 color Yellow
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
@@ -1748,8 +1750,10 @@ drawable baseline_circle_24
 drawable baseline_group_24
 drawable baseline_home_24
 drawable baseline_info_24
+drawable baseline_light_mode_24
 drawable baseline_login_24
 drawable baseline_mobile_screen_share_24
+drawable baseline_nightlight_round_24
 drawable baseline_person_search_24
 drawable baseline_rate_review_24
 drawable baseline_saved_search_24
@@ -1844,8 +1848,12 @@ drawable scan_icon_15
 drawable stilogo1
 drawable teacher
 drawable test_custom_background
+drawable thumb
+drawable thumbfalse
+drawable thumbtrue
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable track
 id ALT
 id AddClass
 id BOTTOM_END
@@ -2327,6 +2335,7 @@ id submenuarrow
 id submit_area
 id surfaceView
 id switchWidget
+id swithMode
 id tabMode
 id table_data_view
 id table_header_view
@@ -2460,6 +2469,7 @@ layout abc_tooltip
 layout activity_about_page
 layout activity_admin_page
 layout activity_answers
+layout activity_bar_chart
 layout activity_class0
 layout activity_class1
 layout activity_class2
@@ -2985,10 +2995,12 @@ style Base_Widget_MaterialComponents_Snackbar
 style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
 style Base_Widget_MaterialComponents_TextView
+style CardBackground
 style CardView
 style CardView_Dark
 style CardView_Light
 style EmptyTheme
+style ImageChange
 style MaterialAlertDialog_MaterialComponents
 style MaterialAlertDialog_MaterialComponents_Body_Text
 style MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar
@@ -3061,6 +3073,7 @@ style RtlOverlay_Widget_AppCompat_Search_DropDown_Text
 style RtlOverlay_Widget_AppCompat_SearchView_MagIcon
 style RtlUnderlay_Widget_AppCompat_ActionButton
 style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow
+style ScreenBackground
 style ShapeAppearance_MaterialComponents
 style ShapeAppearance_MaterialComponents_LargeComponent
 style ShapeAppearance_MaterialComponents_MediumComponent
@@ -3177,6 +3190,7 @@ style TextAppearance_MaterialComponents_Tooltip
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
+style TextColor
 style Theme_AppCompat
 style Theme_AppCompat_CompactMenu
 style Theme_AppCompat_DayNight

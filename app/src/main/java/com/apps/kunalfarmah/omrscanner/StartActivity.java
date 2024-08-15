@@ -4,16 +4,20 @@ import static androidx.constraintlayout.widget.ConstraintSet.GONE;
 
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.SearchView;
+import androidx.appcompat.widget.SwitchCompat;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Layout;
 import android.view.Menu;
@@ -29,6 +33,12 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
 public class StartActivity extends AppCompatActivity  {
+
+    SwitchCompat switchMode;
+    boolean nigthMode;
+
+    SharedPreferences sharedPreferences1;
+    SharedPreferences.Editor editor;
 
     Button scan,answer;
 
@@ -100,6 +110,10 @@ public class StartActivity extends AppCompatActivity  {
         scan = findViewById(R.id.scan);
         answer = findViewById(R.id.setAnswers);
 
+        switchMode = findViewById(R.id.swithMode);
+
+
+
        // imageView.findViewById(R.id.StiLogo);
 
         listView = findViewById(R.id.listView);
@@ -114,6 +128,31 @@ public class StartActivity extends AppCompatActivity  {
 
 
         tab = findViewById(R.id.reportAnalysis);
+
+        sharedPreferences1 = getSharedPreferences("Mode", Context.MODE_PRIVATE);
+        nigthMode = sharedPreferences1.getBoolean("nightMode", false);
+
+        if (nigthMode){
+            switchMode.setChecked(true);
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        }
+
+        switchMode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(nigthMode){
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                    editor = sharedPreferences1.edit();
+                    editor.putBoolean("nightMode", false);
+                }else{
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                    editor = sharedPreferences1.edit();
+                    editor.putBoolean("nightMode", true);
+                }
+
+                editor.apply();
+            }
+        });
 
         tab.setOnClickListener(new View.OnClickListener() {
             @Override

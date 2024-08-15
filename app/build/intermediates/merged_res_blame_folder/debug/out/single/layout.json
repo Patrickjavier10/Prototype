@@ -1,118 +1,126 @@
 [
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_excel_data.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_excel_data.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/fragment_scan.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/fragment_scan.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_start.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_start.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_results.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_results.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_admin_page.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_admin_page.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_report_data.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_report_data.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\header.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\header.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/layout_dialog.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/layout_dialog.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/layout_student.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/layout_student.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_bar_chart.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_bar_chart.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_class1.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_class1.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_answers.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_answers.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_admin_page.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_admin_page.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_pen.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_pen.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_class3.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_class3.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\layout_login.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\layout_login.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/list_customtext.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/list_customtext.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_class1.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_class1.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_teacher.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_teacher.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_results.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_results.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_excel.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_excel.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\layout_dialog.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\layout_dialog.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/layout_login.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/layout_login.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_teacher.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_teacher.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_scan.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_scan.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\layout_student.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\layout_student.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_class0.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_class0.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\fragment_scan.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\fragment_scan.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_start.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_start.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_login.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_login.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_class3.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_class3.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/list_item.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/list_item.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\list_customtext.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\list_customtext.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_class2.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_class2.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\fragment_classes.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\fragment_classes.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/header.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/header.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_class0.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_class0.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_scan.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\list_item.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_search.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_search.xml"
     },
     {
         "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_pen.xml",
         "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_pen.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_answers.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_answers.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\selection_dialog.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\selection_dialog.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_about_page.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_about_page.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_class2.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_class2.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/fragment_classes.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/fragment_classes.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_excel.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_excel.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_main.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_main.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_about_page.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_about_page.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/list_student.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/list_student.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_report_data.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_report_data.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_register.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_register.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\activity_excel_data.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_excel_data.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/selection_dialog.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/selection_dialog.xml"
-    },
-    {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:/layout/activity_search.xml",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_search.xml"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-19:\\layout\\list_student.xml",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\list_student.xml"
     }
 ]

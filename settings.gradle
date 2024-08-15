@@ -1,6 +1,11 @@
+
 rootProject.name='OMR Scanner'
 include ':app'
 include ':openCVLibrary340'
+
+
+
+
 
 
 

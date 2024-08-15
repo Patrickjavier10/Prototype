@@ -27,6 +27,9 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.apps.kunalfarmah.omrscanner.BarChartActivity"
+            android:exported="false" />
+        <activity
             android:name="com.apps.kunalfarmah.omrscanner.Excel"
             android:exported="false" />
         <activity
@@ -39,13 +42,13 @@
             android:name="com.apps.kunalfarmah.omrscanner.ExcelData"
             android:exported="false" />
         <activity
-            android:name="com.apps.kunalfarmah.omrscanner.LoginActivity"
+            android:name="com.apps.kunalfarmah.omrscanner.StartActivity"
             android:exported="false" />
         <activity
             android:name="com.apps.kunalfarmah.omrscanner.AnswersActivity"
             android:label="@string/project_name" />
         <activity
-            android:name="com.apps.kunalfarmah.omrscanner.StartActivity"
+            android:name="com.apps.kunalfarmah.omrscanner.LoginActivity"
             android:label="@string/project_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
