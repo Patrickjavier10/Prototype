@@ -1,5 +1,15 @@
 <resources>
 
+    <style name="secondTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/gradient</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+
+
+    </style>
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light">
         <!-- Customize your theme here. -->
@@ -22,8 +32,6 @@
     <style name="CardBackground"><item name="android:background">@color/Yellow</item></style>
     <style name="TextColor"><item name="android:background">@color/Yellow</item></style>
     <style name="ImageChange"><item name="android:src">@drawable/pen_exam</item></style>
-
-
 
 
 

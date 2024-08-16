@@ -36,12 +36,15 @@
         android:id="@+id/answerKeyEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/input"
         android:hint="Enter answer key"
-        android:textColor="@color/colorPrimary"
-        android:textColorHint="@color/colorPrimary"
         android:inputType="text"
+        android:textColorHint="@color/cream"
+        android:drawableStart="@drawable/baseline_key_24"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/surfaceView"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="5dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

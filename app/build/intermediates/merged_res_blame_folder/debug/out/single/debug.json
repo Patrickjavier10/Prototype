@@ -20,20 +20,8 @@
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\passwordicon.png"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_baseline_person_search_24.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_person_search_24.xml"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\xml_file_paths.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\xml\\file_paths.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_teacher.jpg.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\teacher.jpg"
     },
     {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_thumb.xml.flat",
@@ -42,6 +30,190 @@
     {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_thumbfalse.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\thumbfalse.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_stilogo1.jpg.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\stilogo1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_list_customtext.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\list_customtext.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_bar_chart.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_bar_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_info.txt.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\info.txt"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_logo.jpg.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\logo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_start.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_baseline_rate_review_24.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_rate_review_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_round_refresh_black_36dp.png.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\round_refresh_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_otsu_s_thresholding.jpg.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\otsu_s_thresholding.jpg"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_about_page.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_about_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_s1.jpeg.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\s1.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_list_student.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\list_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_baseline_nightlight_round_24.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_nightlight_round_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_layout_login.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\layout_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_s4.jpeg.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\s4.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_demo_2.jpeg.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\demo_2.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_scan_icon_15.jpg.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\scan_icon_15.jpg"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\menu_bottom_menu1.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\menu\\bottom_menu1.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_class0.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_class0.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\menu_admin.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\menu\\admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_buttons.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\buttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_s3.jpeg.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\s3.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_answers.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_answers.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_baseline_login_24.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_login_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_track.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\track.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_class3.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_class3.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_report_data.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_report_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_s2.jpeg.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\s2.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_admin_page.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_admin_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_input.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\input.xml"
+    },
+    {
+        "merged": "com.apps.kunalfarmah.omrscanner.app-merged_res-20:/drawable_input.xml.flat",
+        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/drawable/input.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_demo_1.jpeg.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\demo_1.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_pen_exam.png.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\pen_exam.png"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_sheet_1.jpg.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\sheet_1.jpg"
+    },
+    {
+        "merged": "com.apps.kunalfarmah.omrscanner.app-merged_res-20:/layout_activity_scan.xml.flat",
+        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_baseline_person_search_24.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_person_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_teacher.jpg.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\teacher.jpg"
     },
     {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_class2.xml.flat",
@@ -60,28 +232,16 @@
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\key.txt"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_excel_data.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_excel_data.xml"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_reporticon.jpg.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\reporticon.jpg"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_thumbfalse.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\thumbfalse.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_stilogo1.jpg.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\stilogo1.jpg"
+        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_excel_data.xml.flat",
+        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_excel_data.xml"
     },
     {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_teacher.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_teacher.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_list_customtext.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\list_customtext.xml"
     },
     {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_class1.xml.flat",
@@ -108,36 +268,12 @@
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\list_item.xml"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_bar_chart.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_bar_chart.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_info.txt.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\info.txt"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_logo.jpg.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\logo.jpg"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_excel.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_excel.xml"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_start.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_start.xml"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_selection_dialog.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\selection_dialog.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_baseline_rate_review_24.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_rate_review_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_round_refresh_black_36dp.png.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\round_refresh_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_baseline_arrow_back_24.xml.flat",
@@ -152,32 +288,16 @@
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_info_24.xml"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_results.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_results.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_otsu_s_thresholding.jpg.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\otsu_s_thresholding.jpg"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_about_page.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_about_page.xml"
     },
     {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_personicon.png.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\personicon.png"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_s1.jpeg.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\s1.jpeg"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_list_student.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\list_student.xml"
+        "merged": "com.apps.kunalfarmah.omrscanner.app-merged_res-20:/drawable_baseline_key_24.xml.flat",
+        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/drawable/baseline_key_24.xml"
     },
     {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
@@ -192,10 +312,6 @@
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_baseline_nightlight_round_24.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_nightlight_round_24.xml"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_scan.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_scan.xml"
     },
@@ -204,28 +320,12 @@
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_layout_login.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\layout_login.xml"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\menu_bottom_menu.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\menu\\bottom_menu.xml"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_demo_2.jpeg.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\demo_2.jpeg"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_s4.jpeg.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\s4.jpeg"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_pen.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_pen.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_fragment_scan.xml.flat",
@@ -236,20 +336,8 @@
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\sheet_2.jpg"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_search.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_search.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -264,28 +352,12 @@
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\fragment_classes.xml"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_scan_icon_15.jpg.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\scan_icon_15.jpg"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_header.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\header.xml"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\menu_bottom_menu1.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\menu\\bottom_menu1.xml"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_thumbtrue.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\thumbtrue.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_class0.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_class0.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\menu_admin.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\menu\\admin.xml"
     },
     {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_ic_launcher_background.xml.flat",
@@ -300,24 +372,8 @@
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\how_threshold_works.gif"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_s3.jpeg.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\s3.jpeg"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_baseline_saved_search_24.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_saved_search_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_answers.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_answers.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_baseline_login_24.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_login_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_linear_color.png.flat",
@@ -328,55 +384,15 @@
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_home_24.xml"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_track.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\track.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_class3.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_class3.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_report_data.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_report_data.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_layout_student.xml.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\layout_student.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_s2.jpeg.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\s2.jpeg"
     },
     {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_admin_page.xml.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_admin_page.xml"
-    },
-    {
         "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_demo_1.jpeg.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\demo_1.jpeg"
-    },
-    {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-merged_res-20:/layout_activity_pen.xml.flat",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_pen.xml"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_pen_exam.png.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\pen_exam.png"
-    },
-    {
-        "merged": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_sheet_1.jpg.flat",
-        "source": "C:\\Users\\patrick javier\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\sheet_1.jpg"
     }
 ]

@@ -104,7 +104,6 @@ public class StartActivity extends AppCompatActivity  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
         scan = findViewById(R.id.scan);
@@ -158,8 +157,11 @@ public class StartActivity extends AppCompatActivity  {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(StartActivity.this, ReportData.class));
+
             }
         });
+
+
 
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);

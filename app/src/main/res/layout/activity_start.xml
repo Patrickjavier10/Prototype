@@ -59,10 +59,10 @@
             android:layout_centerHorizontal="true"
             android:layout_marginHorizontal="20dp"
             android:layout_marginBottom="25dp"
-            android:padding="15dp"
             android:text="Scan"
+            android:background="@drawable/buttons"
             android:textAllCaps="false"
-            android:textColor="@color/Yellow"
+            android:textColor="@color/cream"
             android:textSize="30sp" />
 
         <Button
@@ -70,15 +70,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/scan"
+            android:background="@drawable/buttons"
             android:layout_centerHorizontal="true"
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="25dp"
             android:layout_marginBottom="25dp"
-            style="@style/CardBackground"
-            android:padding="15dp"
+
             android:text="Answer Key"
             android:textAllCaps="false"
-            android:textColor="@color/Yellow"
+            android:textColor="@color/cream"
 
             android:textSize="30sp" />
 
@@ -87,14 +87,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/scan"
+            android:background="@drawable/buttons"
             android:layout_centerHorizontal="true"
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="25dp"
-            style="@style/CardBackground"
-            android:padding="15dp"
+
+
             android:text="Report Data"
             android:textAllCaps="false"
-            android:textColor="@color/Yellow"
+            android:textColor="@color/cream"
             android:textSize="30sp" />
 
 

@@ -6,4 +6,6 @@
     <color name="Yellow">#FFFF00</color>
     <color name="White">#ffffff</color>
     <color name="Black">#000000</color>
+    <color name="gradient">@drawable/buttons</color>
+    <color name="cream">#ffb7c5</color>
 </resources>
