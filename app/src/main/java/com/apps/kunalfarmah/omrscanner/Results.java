@@ -3,6 +3,7 @@ package com.apps.kunalfarmah.omrscanner;
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.os.Environment;
 
 import androidx.annotation.NonNull;
@@ -58,6 +59,7 @@ public class Results extends AppCompatActivity {
                 String[] key = readFile(f).split("\n");
                 String[] answers = readFile(file).split("\n");
                 double maxscore = answers.length;
+
                 if(maxscore==0 || key.length==0){
                     Toast.makeText(getApplicationContext(),"Please Create an Answer Key.",Toast.LENGTH_SHORT).show();
                 }
@@ -70,7 +72,11 @@ public class Results extends AppCompatActivity {
                         String found = answers[i].substring(ind + 1).trim();
                         if (actual.equalsIgnoreCase(found))
                             ++s;
+
+
                     }
+
+
                 }
                 catch (Exception e){
                     Toast.makeText(getApplicationContext(),"Please Create an Answer Key",Toast.LENGTH_SHORT).show();
