@@ -1972,6 +1972,8 @@ id buttonPanel
 id cache_measures
 id camera
 id cancel_button
+id captureButton
+id capturedImageView
 id cardView
 id center
 id centerCrop

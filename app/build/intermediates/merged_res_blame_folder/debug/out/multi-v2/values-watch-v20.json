@@ -4,7 +4,7 @@
             "outputFile": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-18:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\patrick javier\\.gradle\\caches\\transforms-3\\4cd57d0cf9f317a25819cd0c83f47e96\\transformed\\appcompat-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\Miguel Villanueva\\.gradle\\caches\\transforms-3\\4cd57d0cf9f317a25819cd0c83f47e96\\transformed\\appcompat-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

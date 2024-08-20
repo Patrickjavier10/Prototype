@@ -4,7 +4,7 @@
             "outputFile": "com.apps.kunalfarmah.omrscanner.app-mergeDebugResources-18:/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\patrick javier\\.gradle\\caches\\transforms-3\\5844ed16bed0859e17767e7e8d2060c2\\transformed\\jetified-android-image-cropper-2.5.0\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\Miguel Villanueva\\.gradle\\caches\\transforms-3\\5844ed16bed0859e17767e7e8d2060c2\\transformed\\jetified-android-image-cropper-2.5.0\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

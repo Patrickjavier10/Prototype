@@ -168,14 +168,14 @@ public class Scan extends AppCompatActivity {
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-                                    tv.append(Html.fromHtml("\n<font color='green'> Match found for keywords.</font>"));
+                                    tv.append(Html.fromHtml("\n<font color='green'> \n(Match found for keywords).</font>"));
                                 }
                             });
                         } else {
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-                                    tv.append(Html.fromHtml("\n<font color='red'> No match found for keywords.</font>"));
+                                    tv.append(Html.fromHtml("\n<font color='red'> \n(No match found for keywords).</font>"));
                                 }
                             });
                         }

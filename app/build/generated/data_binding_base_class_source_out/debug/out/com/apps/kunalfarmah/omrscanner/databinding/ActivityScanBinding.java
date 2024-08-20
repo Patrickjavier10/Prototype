@@ -5,7 +5,9 @@ import android.view.LayoutInflater;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -25,16 +27,25 @@ public final class ActivityScanBinding implements ViewBinding {
   public final EditText answerKeyEditText;
 
   @NonNull
+  public final Button captureButton;
+
+  @NonNull
+  public final ImageView capturedImageView;
+
+  @NonNull
   public final TextView script;
 
   @NonNull
   public final SurfaceView surfaceView;
 
   private ActivityScanBinding(@NonNull ConstraintLayout rootView,
-      @NonNull EditText answerKeyEditText, @NonNull TextView script,
+      @NonNull EditText answerKeyEditText, @NonNull Button captureButton,
+      @NonNull ImageView capturedImageView, @NonNull TextView script,
       @NonNull SurfaceView surfaceView) {
     this.rootView = rootView;
     this.answerKeyEditText = answerKeyEditText;
+    this.captureButton = captureButton;
+    this.capturedImageView = capturedImageView;
     this.script = script;
     this.surfaceView = surfaceView;
   }
@@ -72,6 +83,18 @@ public final class ActivityScanBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.captureButton;
+      Button captureButton = ViewBindings.findChildViewById(rootView, id);
+      if (captureButton == null) {
+        break missingId;
+      }
+
+      id = R.id.capturedImageView;
+      ImageView capturedImageView = ViewBindings.findChildViewById(rootView, id);
+      if (capturedImageView == null) {
+        break missingId;
+      }
+
       id = R.id.script;
       TextView script = ViewBindings.findChildViewById(rootView, id);
       if (script == null) {
@@ -84,8 +107,8 @@ public final class ActivityScanBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityScanBinding((ConstraintLayout) rootView, answerKeyEditText, script,
-          surfaceView);
+      return new ActivityScanBinding((ConstraintLayout) rootView, answerKeyEditText, captureButton,
+          capturedImageView, script, surfaceView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
