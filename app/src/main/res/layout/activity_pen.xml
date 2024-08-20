@@ -30,14 +30,12 @@
         android:id="@+id/textView6"
         android:layout_width="0dp"
         android:layout_height="60dp"
-
         android:text="CheckMate"
         android:textAlignment="center"
         android:textColor="@color/Yellow"
         android:textSize="40sp"
         android:textStyle="bold"
         app:flow_horizontalAlign="center"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

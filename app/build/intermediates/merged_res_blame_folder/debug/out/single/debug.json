@@ -212,24 +212,28 @@
         "source": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_key_24.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_layout_student.xml.flat",
-        "source": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\layout_student.xml"
+        "merged": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_class_detail.xml.flat",
+        "source": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\activity_class_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_baseline_nightlight_round_24.xml.flat",
-        "source": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_nightlight_round_24.xml"
+        "merged": "com.apps.kunalfarmah.omrscanner.app-merged_res-20:/layout_activity_login.xml.flat",
+        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_layout_student.xml.flat",
+        "source": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\layout\\layout_student.xml"
     },
     {
         "merged": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_s3.jpeg.flat",
         "source": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\s3.jpeg"
     },
     {
-        "merged": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_demo_2.jpeg.flat",
-        "source": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\demo_2.jpeg"
+        "merged": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\drawable_baseline_nightlight_round_24.xml.flat",
+        "source": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\drawable\\baseline_nightlight_round_24.xml"
     },
     {
-        "merged": "com.apps.kunalfarmah.omrscanner.app-merged_res-20:/layout_activity_scan.xml.flat",
-        "source": "com.apps.kunalfarmah.omrscanner.app-main-22:/layout/activity_scan.xml"
+        "merged": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\raw_demo_2.jpeg.flat",
+        "source": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-main-22:\\raw\\demo_2.jpeg"
     },
     {
         "merged": "C:\\Users\\Miguel Villanueva\\.gradle\\daemon\\8.2\\com.apps.kunalfarmah.omrscanner.app-merged_res-20:\\layout_activity_excel_data.xml.flat",

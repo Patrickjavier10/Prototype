@@ -25,7 +25,7 @@
 15-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:9:22-76
 16
 17    <application
-17-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:11:5-96:19
+17-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:11:5-97:19
 18        android:allowBackup="true"
 18-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:12:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -64,136 +64,136 @@
 37            android:exported="false" />
 37-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:28:13-37
 38        <activity
-38-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:29:9-31:40
+38-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:30:9-32:40
 39            android:name="com.apps.kunalfarmah.omrscanner.ReportData"
-39-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:30:13-39
+39-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:31:13-39
 40            android:exported="false" />
-40-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:31:13-37
+40-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:32:13-37
 41        <activity
-41-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:32:9-34:40
+41-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:33:9-35:40
 42            android:name="com.apps.kunalfarmah.omrscanner.ExcelData"
-42-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:33:13-38
+42-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:34:13-38
 43            android:exported="false" />
-43-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:34:13-37
+43-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:35:13-37
 44        <activity
-44-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:35:9-37:40
+44-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:36:9-38:40
 45            android:name="com.apps.kunalfarmah.omrscanner.StartActivity"
-45-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:36:13-42
+45-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:37:13-42
 46            android:exported="false" />
-46-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:37:13-37
+46-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:38:13-37
 47        <activity
-47-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:38:9-40:52
+47-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:39:9-41:52
 48            android:name="com.apps.kunalfarmah.omrscanner.AnswersActivity"
-48-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:39:13-44
+48-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:40:13-44
 49            android:label="@string/project_name" />
-49-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:40:13-49
+49-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:41:13-49
 50        <activity
-50-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:41:9-49:20
+50-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:42:9-50:20
 51            android:name="com.apps.kunalfarmah.omrscanner.LoginActivity"
-51-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:42:13-42
+51-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:43:13-42
 52            android:label="@string/project_name" >
-52-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:43:13-49
+52-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:44:13-49
 53            <intent-filter>
-53-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:44:13-48:29
+53-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:45:13-49:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:45:17-69
-54-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:45:25-66
+54-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:46:17-69
+54-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:46:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:47:17-77
-56-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:47:27-74
+56-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:48:17-77
+56-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:48:27-74
 57            </intent-filter>
 58        </activity>
 59        <activity android:name="com.apps.kunalfarmah.omrscanner.Results" />
-59-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:50:9-45
-59-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:50:19-42
+59-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:51:9-45
+59-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:51:19-42
 60
 61        <provider
-61-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:52:9-60:20
+61-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:53:9-61:20
 62            android:name="androidx.core.content.FileProvider"
-62-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:53:13-62
+62-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:54:13-62
 63            android:authorities="com.example.android.fileprovider"
-63-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:54:13-67
+63-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:55:13-67
 64            android:exported="false"
-64-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:55:13-37
+64-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:56:13-37
 65            android:grantUriPermissions="true" >
-65-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:56:13-47
+65-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:57:13-47
 66            <meta-data
-66-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:57:13-59:54
+66-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:58:13-60:54
 67                android:name="android.support.FILE_PROVIDER_PATHS"
-67-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:58:17-67
+67-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:59:17-67
 68                android:resource="@xml/file_paths" />
-68-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:59:17-51
+68-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:60:17-51
 69        </provider>
 70
 71        <activity
-71-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:62:9-64:52
+71-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:63:9-65:52
 72            android:name="com.apps.kunalfarmah.omrscanner.MainActivity"
-72-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:63:13-41
+72-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:64:13-41
 73            android:label="@string/project_name" />
-73-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:64:13-49
+73-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:65:13-49
 74        <activity
-74-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:65:9-68:59
+74-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:66:9-69:59
 75            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-75-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:66:13-76
+75-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:67:13-76
 76            android:label="@string/project_name"
-76-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:67:13-49
+76-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:68:13-49
 77            android:theme="@style/Base.Theme.AppCompat" />
-77-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:68:13-56
+77-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:69:13-56
 78        <activity
-78-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:69:9-71:40
+78-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:70:9-72:40
 79            android:name="com.apps.kunalfarmah.omrscanner.pen"
-79-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:70:13-32
+79-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:71:13-32
 80            android:exported="false" />
-80-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:71:13-37
+80-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:72:13-37
 81        <activity
-81-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:72:9-74:40
+81-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:73:9-75:40
 82            android:name="com.apps.kunalfarmah.omrscanner.Scan"
-82-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:73:13-33
+82-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:74:13-33
 83            android:exported="false" />
-83-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:74:13-37
+83-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:75:13-37
 84        <activity
-84-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:75:9-77:40
+84-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:76:9-78:40
 85            android:name="com.apps.kunalfarmah.omrscanner.Class3"
-85-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:76:13-35
+85-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:77:13-35
 86            android:exported="false" />
-86-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:77:13-37
+86-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:78:13-37
 87        <activity
-87-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:78:9-80:40
+87-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:79:9-81:40
 88            android:name="com.apps.kunalfarmah.omrscanner.Class2"
-88-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:79:13-35
+88-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:80:13-35
 89            android:exported="false" />
-89-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:80:13-37
+89-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:81:13-37
 90        <activity
-90-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:81:9-83:40
+90-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:82:9-84:40
 91            android:name="com.apps.kunalfarmah.omrscanner.Class0"
-91-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:82:13-35
+91-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:83:13-35
 92            android:exported="false" />
-92-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:83:13-37
+92-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:84:13-37
 93        <activity
-93-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:84:9-86:40
+93-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:85:9-87:40
 94            android:name="com.apps.kunalfarmah.omrscanner.AboutPage"
-94-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:85:13-38
+94-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:86:13-38
 95            android:exported="false" />
-95-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:86:13-37
+95-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:87:13-37
 96        <activity
-96-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:87:9-89:40
+96-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:88:9-90:40
 97            android:name="com.apps.kunalfarmah.omrscanner.RegisterActivity"
-97-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:88:13-45
+97-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:89:13-45
 98            android:exported="false" />
-98-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:89:13-37
+98-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:90:13-37
 99        <activity
-99-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:90:9-92:40
+99-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:91:9-93:40
 100            android:name="com.apps.kunalfarmah.omrscanner.TeacherActivity"
-100-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:91:13-44
+100-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:92:13-44
 101            android:exported="false" />
-101-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:92:13-37
+101-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:93:13-37
 102        <activity
-102-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:93:9-95:40
+102-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:94:9-96:40
 103            android:name="com.apps.kunalfarmah.omrscanner.AdminPage"
-103-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:94:13-38
+103-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:95:13-38
 104            android:exported="false" />
-104-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:95:13-37
+104-->C:\Users\Miguel Villanueva\Prototype\app\src\main\AndroidManifest.xml:96:13-37
 105        <activity
 105-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Miguel Villanueva\.gradle\caches\transforms-3\c1b59ea02e5f0d41bef567b374b644b9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 106            android:name="com.google.android.gms.common.api.GoogleApiActivity"

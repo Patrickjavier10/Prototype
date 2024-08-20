@@ -26,6 +26,7 @@
         <activity
             android:name=".Search"
             android:exported="false" />
+
         <activity
             android:name=".ReportData"
             android:exported="false" />
