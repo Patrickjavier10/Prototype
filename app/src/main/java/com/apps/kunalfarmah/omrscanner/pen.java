@@ -120,7 +120,7 @@ public class pen extends AppCompatActivity {
         dialog = builder.create();
     }
 
-    private void addClassCard(String className, String yearLevel) {
+    private void addClassCard(final String className, final String yearLevel) {
         View view = getLayoutInflater().inflate(R.layout.list_item, null);
         TextView nameView = view.findViewById(R.id.className);
         TextView yearLevelView = view.findViewById(R.id.yearLevel);
@@ -130,14 +130,44 @@ public class pen extends AppCompatActivity {
 
         layout.addView(view);
 
+        // Set OnClickListener for each class item
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Perform the desired action when a class is clicked
+                // Example: Start a new activity with the class details
+                Intent intent = new Intent(pen.this, Class0.class);
+                intent.putExtra("className", className);
+                intent.putExtra("yearLevel", yearLevel);
+                startActivity(intent);
+            }
+        });
+
+        // Set OnLongClickListener to prompt for deletion confirmation
         view.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                // Remove the class from the database
-                databaseHelper.deleteClass(className, yearLevel);
+                new AlertDialog.Builder(pen.this)
+                        .setTitle("Delete Record")
+                        .setMessage("Are you sure you want to delete this record?")
+                        .setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                // Remove the class from the database
+                                databaseHelper.deleteClass(className, yearLevel);
 
-                // Remove the view from the UI
-                layout.removeView(view);
+                                // Remove the view from the UI
+                                layout.removeView(view);
+                            }
+                        })
+                        .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        })
+                        .create()
+                        .show();
                 return true;
             }
         });
